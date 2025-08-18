@@ -1,8 +1,11 @@
+import ButtonSearch from "@/components/header/ButtonSearch";
+import InputBlock from "@/components/header/InputBlock";
+
 const SearchBlock = () => {
     return (
         <div className="flex flex-row gap-4 flex-grow">
-            <button className="bg-(--color-primary)"></button>
-            <div></div>
+            <ButtonSearch/>
+            <InputBlock/>
         </div>
     )
 }
