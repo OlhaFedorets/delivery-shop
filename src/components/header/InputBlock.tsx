@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import iconSearch from "./../../../public/icons-header/icon-search.svg"
 
