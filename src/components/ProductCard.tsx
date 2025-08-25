@@ -12,7 +12,7 @@ const ProductCard = ({
                          basePrice,
                          discountPercent = 0,
                          rating,
-                         categories
+                         categories,
                      }: ProductCardProps) => {
     const calculateFinalPrice = (price: number, discount: number): number => {
         return discount > 0 ? price * (1 - discount / 100) : price;
@@ -24,23 +24,27 @@ const ProductCard = ({
 
     const isNewProduct = categories?.includes("new");
 
-    const finalPrice = isNewProduct ? basePrice : calculateFinalPrice(basePrice, discountPercent);
+    const finalPrice = isNewProduct
+        ? basePrice
+        : calculateFinalPrice(basePrice, discountPercent);
 
-    const priceByCard = isNewProduct ? basePrice : calculatePriceByCard(finalPrice, cardDiscountPercent);
+    const priceByCard = isNewProduct
+        ? basePrice
+        : calculatePriceByCard(finalPrice, cardDiscountPercent);
+
+    const ratingValue = rating?.rate || 5;
 
     return (
-        <div className="flex flex-col justify-between w-40 rounded overflow-hidden bg-white md:w-[224px] xl:w-[272px]
-        align-top p-0 hover:shadow-(--shadow-article) duration-300">
-            <div className="relative w-40 h-40 md:w-[224px] xl:w-[272px]">
+        <div className="flex flex-col justify-between w-40 rounded overflow-hidden bg-white md:w-[224px] xl:w-[272px] align-top p-0 hover:shadow-(--shadow-article) duration-300">
+            <div className="relative aspect-square w-40 h-40 md:w-[224px] xl:w-[272px]">
                 <Image
                     src={img}
                     alt="Акция"
                     fill
                     className="object-contain"
-                    sizes="(max-width: 768px) 160px, (max-width: 1200px) 224px, 272px"
+                    sizes="(max-width: 768px) 160px, (max-width: 1280px) 224px, 272px"
                 />
-                <button className="w-8 h-8 p-2 bg-[#f3f2f1] hover:bg-[#fcd5ba] absolute top-2 right-2 opacity-50
-                rounded cursor-pointer duration-300">
+                <button className="w-8 h-8 p-2 bg-[#f3f2f1] hover:bg-[#fcd5ba] absolute top-2 right-2 opacity-50 rounded cursor-pointer duration-300">
                     <Image
                         src={iconHeart}
                         alt="В избранное"
@@ -73,16 +77,17 @@ const ProductCard = ({
                                 <span>{formatPrice(finalPrice)}</span>
                                 <span>₽</span>
                             </div>
-                            <p className="text-[#bfbfbf] text-[8px] md:text-xs text-right">Обычная</p>
+                            <p className="text-[#bfbfbf] text-[8px] md:text-xs text-right">
+                                Обычная
+                            </p>
                         </div>
                     )}
                 </div>
                 <div className="h-13.5 text-xs md:text-base text-[#414141] line-clamp-3 md:line-clamp-2 leading-[1.5]">
                     {description}
                 </div>
-                {rating > 0 && <StarRating rating={rating}/>}
-                <button
-                    className="border border-(--color-primary) hover:text-white hover:bg-[#ff6633] hover:border-transparent active:shadow-(--shadow-button-active) w-full h-10 rounded p-2 justify-center items-center text-(--color-primary) transition-all duration-300 cursor-pointer select-none">
+                {ratingValue > 0 && <StarRating rating={ratingValue} />}
+                <button className="border border-(--color-primary) hover:text-white hover:bg-[#ff6633] hover:border-transparent active:shadow-(--shadow-button-active) w-full h-10 rounded p-2 justify-center items-center text-(--color-primary) transition-all duration-300 cursor-pointer select-none">
                     В корзину
                 </button>
             </div>
