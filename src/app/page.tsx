@@ -1,9 +1,10 @@
 import Slider from "@/components/Slider/Slider";
-import Actions from "@/components/Actions";
-import NewProducts from "@/components/NewProducts";
-import Purchases from "@/components/Purchases";
+import Actions from "@/app/(products)/Actions";
+import NewProducts from "@/app/(products)/NewProducts";
+import Purchases from "@/app/(user)/Purchases";
 import SpecialOffers from "@/components/SpecialOffers";
 import Maps from "@/components/Maps";
+import Articles from "@/app/(articles)/Articles";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
             <Purchases/>
             <SpecialOffers/>
             <Maps/>
+            <Articles/>
         </div>
 
     </main>
