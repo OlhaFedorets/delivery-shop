@@ -1,4 +1,4 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "../../components/ProductCard";
 import userDatabase from "@/data/userDatabase.json";
 import productsDatabase from "@/data/productsDatabase.json";
 import ViewAllButton from "@/components/ViewAllButton";
