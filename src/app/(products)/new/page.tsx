@@ -1,30 +1,23 @@
-import ProductCard from "@/components/ProductCard";
 import products from "@/data/productsDatabase.json";
-import ViewAllButton from "@/components/ViewAllButton";
+import ProductsSection from "@/components/ProductsSection";
+import {shuffleArray} from "@/utils/shuffleArray";
+
+export const metadata = {
+    title: 'Новинки магазина "Северяночка"',
+    description: 'Новые товары магазина "Северяночка"',
+};
 
 const AllNew = () => {
-    const newProducts = products.filter((p) =>
+    const newProducts = shuffleArray(products.filter((p) =>
         p.categories.includes("new")
-    );
+    ));
 
     return (
-        <section>
-            <div className=" px-[max(12px,calc((100%-1208px)/2))] flex flex-col mt-20">
-                <div className="mb-4 md:mb-8 xl:mb-10 flex flex-row justify-between">
-                    <h2 className="text-2xl xl:text-4xl text-left font-bold text-[#414141]">All new</h2>
-                    <ViewAllButton btnText="Go to main" href="/"/>
-                </div>
-                <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 xl:gap-10 justify-items-center">
-                    {newProducts.map((item) => (
-                        <li
-                            key={item.id}
-                        >
-                            <ProductCard {...item} />
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        </section>
+        <ProductsSection
+            title="New"
+            viewAllButton={{text: "Go to main", href: "/"}}
+            products={newProducts}
+        />
     );
 };
 
