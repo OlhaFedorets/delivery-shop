@@ -1,4 +1,4 @@
-import {Article} from "@/types/articles";
+import {Article} from "@/types/articlesListPageProps";
 
 export interface ArticleSectionProps {
     title: string;
