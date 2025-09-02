@@ -1,4 +1,4 @@
-export interface Article {
+export interface ArticleCardProps {
     img: string;
     title: string;
     text: string;
