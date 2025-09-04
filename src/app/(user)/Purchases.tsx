@@ -5,21 +5,21 @@ import ProductsSection from "@/components/ProductsSection";
 const Purchases = () => {
 
     const user = userDatabase[0]
-    const priductsId = user.purchases.map((p: {id: number}) => p.id)
+    const priductsId = user.purchases.map((p: { id: number }) => p.id)
     const products = productsDatabase.filter((p) => priductsId.includes(p.id));
     if (!products) return undefined;
     products.map((product) => {
-
-        const { discountPercent, ...rest } = product;
-                void discountPercent;
-                return rest;
+        const {discountPercent, ...rest} = product;
+        void discountPercent;
+        return rest;
     })
 
     return (
         <ProductsSection
             title="Previous purchases"
-            viewAllButton={{text:"All purchases", href:"purchases"}}
+            viewAllButton={{text: "All purchases", href: "purchases"}}
             products={products}
+            compact
         />
     );
 };
