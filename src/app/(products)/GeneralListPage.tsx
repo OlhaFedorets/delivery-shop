@@ -4,7 +4,7 @@ import { CONFIG } from "../../../config/config";
 import PaginationWrapper from "@/components/PaginationWrapper";
 import ArticleSection from "../(articles)/ArticlesSection";
 import { ProductCardProps } from "@/types/product";
-import { ArticleCardProps } from "@/types/articlesListPageProps";
+import { ArticleCardProps } from "@/types/articles";
 
 const GeneralListPage = async ({
                                    searchParams,
@@ -28,13 +28,11 @@ const GeneralListPage = async ({
                 {!props.contentType ? (
                     <ProductsSection
                         title={props.pageTitle}
-                        viewAllButton={{ text: "Go to main", href: "/" }}
                         products={paginatedItems as ProductCardProps[]}
                     />
                 ) : (
                     <ArticleSection
                         title={props.pageTitle}
-                        viewAllButton={{ text: "Go to main", href: "/" }}
                         articles={paginatedItems as ArticleCardProps[]}
                     />
                 )}
