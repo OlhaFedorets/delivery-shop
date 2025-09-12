@@ -1,11 +1,11 @@
-import {Article} from "@/types/articlesListPageProps";
+import {ArticleCardProps} from "@/types/articles";
 
 export interface ArticleSectionProps {
     title: string;
-    viewAllButton: {
+    viewAllButton?: {
         text: string;
         href: string;
     };
-    articles: Article[];
+    articles: ArticleCardProps[];
     compact?: boolean;
 }
