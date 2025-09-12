@@ -7,5 +7,5 @@ export interface GeneralListPageProps {
     data:ContentItem[];
     pageTitle: string;
     basePath: string;
-    contentType?: "articles";
+    contentType?: string;
 }
