@@ -5,7 +5,7 @@ const SearchBlock = () => {
     return (
         <div className="flex flex-row gap-4 flex-grow">
             <ButtonSearch/>
-            <InputBlock/>
+            {/*<InputBlock/>*/}
         </div>
     )
 }
