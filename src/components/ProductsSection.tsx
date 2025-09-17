@@ -1,13 +1,13 @@
 import ProductCard from "@/components/ProductCard";
 import ViewAllButton from "@/components/ViewAllButton";
-import { ProductsSectionProps } from "@/types/productsSection";
+import {ProductsSectionProps} from "@/types/productsSection";
 
 const ProductsSection = ({
                              title,
                              viewAllButton,
                              products,
-                             applyIndexStyles = true,
                              contentType,
+                             compact = false
                          }: ProductsSectionProps & {
     applyIndexStyles?: boolean;
     contentType?: string;
@@ -37,9 +37,9 @@ const ProductsSection = ({
                     {products.map((item, index) => (
                         <li
                             key={item.id}
-                            className={
-                                applyIndexStyles ? (index >= 3 ? "md:hidden xl:block" : "") : ""
-                            }
+                            className={compact ? `${index >= 4 ? "hidden" : ""}
+             ${index >= 3 ? "md:hidden xl:block" : ""}
+             ${index >= 4 ? "xl:hidden" : ""}` : ""}
                         >
                             <ProductCard {...item} />
                         </li>
@@ -51,7 +51,6 @@ const ProductsSection = ({
 };
 
 export default ProductsSection;
-
 
 
 // import ViewAllButton from "@/components/ViewAllButton";
