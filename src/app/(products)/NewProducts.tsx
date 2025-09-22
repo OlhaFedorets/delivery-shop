@@ -4,7 +4,7 @@ import {shuffleArray} from "@/utils/shuffleArray";
 
 const NewProducts = () => {
     const newProducts = shuffleArray(database.filter((p) =>
-        p.categories?.includes("new")
+        p.tags?.includes("new")
     ));
 
     return (
