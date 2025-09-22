@@ -4,7 +4,7 @@ import {shuffleArray} from "@/utils/shuffleArray";
 
 const Actions = () => {
     const actionProducts = shuffleArray(products.filter((p) =>
-        p.categories.includes("actions")
+        p.tags.includes("actions")
     ));
 
     return (
