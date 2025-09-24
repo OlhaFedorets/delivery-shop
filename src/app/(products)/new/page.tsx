@@ -12,7 +12,7 @@ const AllNew = async ({
     searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
 }) => {
     const newProducts = products.filter((p) =>
-        p.categories.includes("new")
+        p.tags.includes("new")
     );
 
     return (
