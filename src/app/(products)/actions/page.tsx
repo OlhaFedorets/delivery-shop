@@ -13,7 +13,7 @@ const AllActions = async ({
     searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
 }) => {
     const actionProducts = products.filter((p) =>
-        p.categories.includes("actions")
+        p.tags.includes("actions")
     );
 
     return (
