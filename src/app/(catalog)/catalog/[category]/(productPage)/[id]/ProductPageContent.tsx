@@ -5,6 +5,7 @@ import ImagesBlock from "./_components/ImagesBlock";
 import ProductOffer from "./_components/ProductOffer";
 import CartButton from "./_components/CartButton";
 import Bonuses from "./_components/Bonuses";
+import AddToCartButton from "@/components/AddToCartButton";
 
 interface ProductPageContentProps {
     product: ProductCardProps;
@@ -39,7 +40,8 @@ const ProductPageContent = ({
                             discountedPrice={discountedPrice}
                             cardPrice={cardPrice}
                         />
-                        <CartButton />
+                        {/*<AddToCartButton productId={productId}/>*/}
+                        <CartButton productId={productId}/>
                         <Bonuses bonus={bonusesAmount} />
                         <div className="flex flex-col gap-2 xl:mt-8 md:mt-4">
                             <h3>Основные характеристики:</h3>
