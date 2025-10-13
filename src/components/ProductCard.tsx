@@ -5,6 +5,7 @@ import {formatPrice} from "@/utils/formatPrice";
 import StarRating from "@/components/StarRating";
 import Link from "next/link";
 import FavouriteButton from "@/components/FavouriteButton";
+import AddToCartButton from "@/components/AddToCartButton";
 
 const cardDiscountPercent = 6;
 
@@ -92,10 +93,11 @@ const ProductCard = ({
                     {<StarRating rating={ratingValue}/>}
                 </div>
             </Link>
-            <button
-                className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-[#ff6633] hover:border-transparent active:shadow-(--shadow-button-active) h-10 rounded justify-center items-center text-primary transition-all duration-300 cursor-pointer select-none">
-                В корзину
-            </button>
+            <AddToCartButton productId={productId.toString()} />
+            {/*<button*/}
+            {/*    className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-[#ff6633] hover:border-transparent active:shadow-(--shadow-button-active) h-10 rounded justify-center items-center text-primary transition-all duration-300 cursor-pointer select-none">*/}
+            {/*    В корзину*/}
+            {/*</button>*/}
         </div>
     );
 };
