@@ -34,7 +34,7 @@ const CartItemsDisplay = () => {
 
                 return (
                     <div key={item.productId} className="border-b last:border-b-0 p-6">
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center justify-between flex-col md:flex-row lg:flex-row">
                             <div className="flex items-center space-x-4">
                                 <ProductImage img={item.product.img} title={item.product.title}/>
                                 <div className="flex-1">
