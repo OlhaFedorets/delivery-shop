@@ -5,7 +5,7 @@ import ImagesBlock from "./_components/ImagesBlock";
 import ProductOffer from "./_components/ProductOffer";
 import CartButton from "./_components/CartButton";
 import Bonuses from "./_components/Bonuses";
-import AddToCartButton from "@/components/AddToCartButton";
+
 
 interface ProductPageContentProps {
     product: ProductCardProps;
@@ -23,6 +23,7 @@ const ProductPageContent = ({
     const cardPrice = discountedPrice * (1 - CONFIG.CARD_DISCOUNT_PERCENT / 100);
     const bonusesAmount = cardPrice * 0.05;
 
+    // @ts-ignore
     return (
         <div className="px-[max(12px,calc((100%-1208px)/2))] md:px-[max(16px,calc((100%-1208px)/2))] text-main-text">
             <h1 className="text-xl md:text-2xl font-bold mb-4">{product.description}</h1>
@@ -33,6 +34,7 @@ const ProductPageContent = ({
                             {product.rating.count || 0}
                         </p>
                     </div>
+
                 <div className="flex flex-col md:flex-row md:flex-wrap gap-10 w-full justify-center mt-4 xl:mt-8">
                     <ImagesBlock product={product} />
                     <div className="md:w-[344px] lg:w-[376px] flex flex-col">
@@ -40,7 +42,6 @@ const ProductPageContent = ({
                             discountedPrice={discountedPrice}
                             cardPrice={cardPrice}
                         />
-                        {/*<AddToCartButton productId={productId}/>*/}
                         <CartButton productId={productId}/>
                         <Bonuses bonus={bonusesAmount} />
                         <div className="flex flex-col gap-2 xl:mt-8 md:mt-4">
