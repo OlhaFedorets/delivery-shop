@@ -1,5 +1,4 @@
 import Image from "next/image";
-import iconHeart from "/public/icons-header/icon-heart.svg";
 import {ProductCardProps} from "@/types/product";
 import {formatPrice} from "@/utils/formatPrice";
 import StarRating from "@/components/StarRating";
@@ -46,6 +45,7 @@ const ProductCard = ({
     return (
         <div
             className="relative flex flex-col justify-between w-40 rounded overflow-hidden bg-white md:w-[224px] xl:w-[272px] h-[349px] align-top p-0 hover:shadow-(--shadow-article) duration-300">
+            <FavouriteButton productId={productId.toString()}/>
             <Link href={productUrl}>
                 <div className="relative aspect-square w-40 h-40 md:w-[224px] xl:w-[272px]">
                     <Image
@@ -93,7 +93,7 @@ const ProductCard = ({
                     {<StarRating rating={ratingValue}/>}
                 </div>
             </Link>
-            <AddToCartButton productId={productId.toString()} />
+            <AddToCartButton productId={productId.toString()}/>
             {/*<button*/}
             {/*    className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-[#ff6633] hover:border-transparent active:shadow-(--shadow-button-active) h-10 rounded justify-center items-center text-primary transition-all duration-300 cursor-pointer select-none">*/}
             {/*    В корзину*/}
