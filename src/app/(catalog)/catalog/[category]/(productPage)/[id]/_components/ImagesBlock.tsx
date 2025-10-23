@@ -1,5 +1,6 @@
 import { ProductCardProps } from "@/types/product";
 import Image from "next/image";
+import FavouriteButton from "@/components/FavouriteButton";
 
 const ImagesBlock = ({ product }: { product: ProductCardProps }) => {
     return (
@@ -28,6 +29,7 @@ const ImagesBlock = ({ product }: { product: ProductCardProps }) => {
                      w-[248px] md:w-[272px] xl:w-[504px]
                      p-2.5 shrink-0"
             >
+                <FavouriteButton productId={product.id.toString()}/>
                 <Image
                     src={product.img}
                     alt={product.title}
@@ -38,7 +40,7 @@ const ImagesBlock = ({ product }: { product: ProductCardProps }) => {
                     priority
                 />
                 {product.discountPercent && product.discountPercent > 0 ? (
-                    <div className="absolute top-5 right-5 bg-[#ff6633] text-white px-2 py-1 rounded text-sm">
+                    <div className="absolute top-5 left-5 bg-[#ff6633] text-white px-2 py-1 rounded text-sm">
                         -{product.discountPercent}%
                     </div>
                 ) : null}
