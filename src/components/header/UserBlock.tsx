@@ -4,29 +4,36 @@ import {usePathname} from "next/navigation";
 import IconCart from "@/components/svg/IconCart";
 import Link from "next/link";
 import {useCartStore} from "@/store/cartStore";
-import {useEffect} from "react";
 import IconHeart from "@/components/svg/IconHeart";
+import {useFavouriteStore} from "@/store/favouriteStore";
 
 const UserBlock = () => {
     const pathname = usePathname()
-    const isFavoritesPage = pathname === "/favorites";
+    const isFavouritesPage = pathname === "/favourites";
     const isCartPage = pathname === "/cart"
 
-    const {totalItems, fetchCart} = useCartStore();
-
-    useEffect(() => {
-        fetchCart();
-    }, [fetchCart]);
+    const {totalItems} = useCartStore();
+    const {totalFavourites} = useFavouriteStore()
 
     return (
             <ul className="flex flex-row gap-x-2 md:gap-x-8 justify-between items-center bg-wite z-50 text-sm">
-                <li>
+                <li className="relative">
                     <Link
-                        href="/favorites"
+                        href={"/favourites"}
                         className="flex flex-col items-center gap-2.5 w-11 cursor-pointer"
                     >
-                        <IconHeart isActive={isFavoritesPage} variant="orange"/>
-                        <span className={`hidden md:block ${isFavoritesPage ? "text-[#ff6633]" : ""}`}>
+                        <IconHeart isActive={isFavouritesPage} variant="orange"/>
+
+                        {totalFavourites > 0 && (
+                            <span
+                                className="absolute -top-2 right-0 bg-[#ff6633] text-white text-[9px] rounded w-4 h-4 flex
+                                items-center justify-center py-0.5 px-1"
+                            >
+                            {totalFavourites > 99 ? '99+' : totalFavourites}
+                            </span>
+                        )}
+
+                        <span className={`hidden md:block ${isFavouritesPage ? "text-[#ff6633]" : ""}`}>
                             Избранное
                         </span>
                     </Link>
