@@ -27,11 +27,6 @@ const AllUserPurchases = async ({
                 basePath: "/purchases"
             }}
         />
-        // <ProductsSection
-        //     title="All purchases"
-        //     viewAllButton={{text: "Go to main", href: "/"}}
-        //     products={products}
-        // />
     );
 };
 
