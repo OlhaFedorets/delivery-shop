@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#f9f4e2] mb-14 md:mb-0 bg-[url('/images/graphics/pattern-footer.png')] px-[max(12px,calc((100%-1208px)/2))] w-full">
+        <footer className="bg-[#f2efe7] mb-14 md:mb-0 bg-[url('/images/graphics/pattern.png')] px-[max(12px,calc((100%-1208px)/2))] w-full">
             <div className="px-7 py-10 grid-container gap-6 text-[#414141] md:gap-x-10 items-center">
                 {/* Логотип со ссылкой на главную */}
                 <div className="logo">
@@ -107,16 +107,16 @@ const Footer = () => {
                 </nav>
 
                 {/* Дизайнер (без изменений) */}
-                <div className="design">
-                    <a href="https://zasovskiy.ru/" target="_blank">
-                        <Image
-                            src="/icons-footer/design.png"
-                            alt="Дизайнер"
-                            width={152}
-                            height={18}
-                        />
-                    </a>
-                </div>
+                {/*<div className="design">*/}
+                {/*    <a href="https://zasovskiy.ru/" target="_blank">*/}
+                {/*        <Image*/}
+                {/*            src="/icons-footer/design.png"*/}
+                {/*            alt="Дизайнер"*/}
+                {/*            width={152}*/}
+                {/*            height={18}*/}
+                {/*        />*/}
+                {/*    </a>*/}
+                {/*</div>*/}
             </div>
 
             <style jsx>{`
