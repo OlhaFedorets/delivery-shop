@@ -7,7 +7,8 @@
 
 @theme inline {
   --font-sans: var(--font-rubik);
-  --color-primary: #70c05b;
+  --color-primary: rgb(73, 42, 72);
+  --color-secondary: rgb(126, 109, 126);
   --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
   --shadow-button-default: 4px 8px 16px 0px rgba(112, 192, 91, 0.2);
   --shadow-button-secondary: 4px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -24,7 +25,7 @@
 }
 
 body {
-  background-color: #fbf8ec;
+  background-color: #f8f8f2;
   color: var(--foreground);
   font-family: var(--font-rubik), sans-serif;
 }
