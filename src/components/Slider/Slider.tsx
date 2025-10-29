@@ -7,7 +7,7 @@ import {motion} from "framer-motion";
 const Slider = () => {
     const slides = [<FirstSlide key="1"/>, <SecondSlide key="2"/>]
     return (
-        <div className="mb-10 md:mb-15 xl:mb-20 h-20 md:h-40 xl:h-50 w-full relative">
+        <div className="mb-10 md:mb-10 xl:mb-10 h-25 md:h-40 xl:h-50 w-full relative bg-[url('/images/graphics/pattern.png')]">
             {slides.map((slide, index) => {
                 return <motion.div
                     key={`slide-${index}`}
