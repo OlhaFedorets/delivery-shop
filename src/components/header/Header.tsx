@@ -4,11 +4,10 @@ import UserBlock from "@/components/header/UserBlock";
 
 const Header = () => {
     return (
-        <header className="bg-white w-full shadow-(--shadow-default) z-10 flex flex-row py-2 px-4 items-center justify-around">
-            <div className="flex flex-row gap-8 xl:gap-10">
-                <LogoBlock/>
-                <ButtonSearch/>
-            </div>
+        <header
+            className="bg-white w-full shadow-(--shadow-default) z-10 flex flex-row py-2 px-4 xl:px-40 items-center justify-around">
+            <LogoBlock/>
+            <ButtonSearch/>
             <UserBlock/>
         </header>
     )
