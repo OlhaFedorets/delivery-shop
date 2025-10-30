@@ -52,7 +52,7 @@ const CartItemsDisplay = () => {
                                         {(finalPrice * item.quantity).toFixed(2)} руб.
                                     </p>
                                     {hasCard && (
-                                        <p className="text-green-600 text-sm font-semibold">
+                                        <p className="text-[var(--color-tertiary)] text-sm font-semibold">
                                             {(cardPrice * item.quantity).toFixed(2)} руб.
                                         </p>
                                     )}
@@ -60,7 +60,7 @@ const CartItemsDisplay = () => {
 
                                 <button
                                     onClick={() => removeItem(item.productId)}
-                                    className="text-red-500 hover:text-red-700 transition-colors p-2"
+                                    className="text-red-800 hover:text-red-600 transition-colors p-2"
                                 >
                                     ✕
                                 </button>
