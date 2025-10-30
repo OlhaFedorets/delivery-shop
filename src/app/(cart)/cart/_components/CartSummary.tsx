@@ -17,14 +17,14 @@ const CartSummary = () => {
                 </div>
 
                 {summary.productDiscount > 0 && (
-                    <div className="flex justify-between text-green-600">
+                    <div className="flex justify-between text-[var(--color-tertiary)]">
                         <span>Скидка на товары</span>
                         <span>-{summary.productDiscount.toFixed(2)} руб.</span>
                     </div>
                 )}
 
                 {hasCard && summary.cardDiscount > 0 && (
-                    <div className="flex justify-between text-green-600">
+                    <div className="flex justify-between text-[var(--color-tertiary)]">
                         <span>Скидка по карте (6%)</span>
                         <span>-{summary.cardDiscount.toFixed(2)} руб.</span>
                     </div>
@@ -36,7 +36,7 @@ const CartSummary = () => {
                         <span>{summary.finalTotal.toFixed(2)} руб.</span>
                     </div>
                     {hasCard && (
-                        <div className="text-green-600 text-sm mt-1">
+                        <div className="text-[var(--color-tertiary)] text-sm mt-1">
                             Вы экономите {(summary.productDiscount + summary.cardDiscount).toFixed(2)} руб.
                         </div>
                     )}
