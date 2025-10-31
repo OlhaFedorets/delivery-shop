@@ -1,7 +1,7 @@
 import Image from "next/image";
-import {Article} from "@/types/articles";
+import {ArticleCardProps} from "@/types/articles";
 
-const ArticleCard = ({img, title, createdAt, text}: Article) => {
+const ArticleCard = ({img, title, createdAt, text}: ArticleCardProps) => {
 
     return (
         <article
@@ -27,7 +27,8 @@ const ArticleCard = ({img, title, createdAt, text}: Article) => {
                     {text}
                 </p>
                 <button
-                    className="rounded mt-auto w-37.5 h-10 bg-[#E5FFDE] text-base text-[#70C05B] hover:bg-(--color-primary) hover:shadow-(--shadow-button-default) hover:text-white active:shadow-(--shadow-button-active) duration-300 cursor-pointer">
+                    className="rounded mt-auto w-37.5 h-10 text-[#70C05B] border border-primary text-primary
+                    hover:bg-(--color-primary) hover:shadow-(--shadow-button-secondary) hover:text-white active:shadow-(--shadow-button-active) duration-300 cursor-pointer">
                     Подробнее
                 </button>
             </div>
