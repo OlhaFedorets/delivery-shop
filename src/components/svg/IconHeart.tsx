@@ -2,18 +2,10 @@
 
 interface HeartIconProps {
     isActive?: boolean;
-    variant?: "default" | "orange";
 }
 
-const IconHeart = ({ isActive, variant }: HeartIconProps) => {
-    const getIconColor = () => {
-        if (isActive) {
-            return variant === "orange" ? "#ff6633" : "#ff3b30";
-        }
-        return "#606060";
-    };
-
-    const iconColor = getIconColor();
+const IconHeart = ({ isActive }: HeartIconProps) => {
+    const iconColor = isActive ? "var(--color-secondary)" : "#606060";
     return (
         <svg viewBox="0 0 24 24" width="24.000000" height="24.000000" fill="none">
             <rect
