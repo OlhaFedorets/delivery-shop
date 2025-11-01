@@ -22,18 +22,18 @@ const UserBlock = () => {
                         href={"/favourites"}
                         className="flex flex-col items-center gap-2.5 w-11 cursor-pointer"
                     >
-                        <IconHeart isActive={isFavouritesPage} variant="orange"/>
+                        <IconHeart isActive={isFavouritesPage}/>
 
                         {totalFavourites > 0 && (
                             <span
-                                className="absolute -top-2 right-0 bg-[#ff6633] text-white text-[9px] rounded w-4 h-4 flex
+                                className="absolute -top-2 right-0 bg-[var(--color-secondary)] text-white text-[9px] rounded w-4 h-4 flex
                                 items-center justify-center py-0.5 px-1"
                             >
                             {totalFavourites > 99 ? '99+' : totalFavourites}
                             </span>
                         )}
 
-                        <span className={`hidden md:block ${isFavouritesPage ? "text-[#ff6633]" : ""}`}>
+                        <span className={`hidden md:block ${isFavouritesPage ? "text-[#cc0e31]" : ""}`}>
                             Избранное
                         </span>
                     </Link>
@@ -48,14 +48,14 @@ const UserBlock = () => {
 
                         {totalItems > 0 && (
                             <span
-                                className="absolute -top-2 right-0 bg-[#ff6633] text-white text-[9px] rounded w-4 h-4 flex
+                                className="absolute -top-2 right-0 bg-[var(--color-secondary)] text-white text-[9px] rounded w-4 h-4 flex
                                 items-center justify-center py-0.5 px-1"
                             >
                             {totalItems > 99 ? '99+' : totalItems}
                             </span>
                         )}
 
-                        <span className={`hidden md:block ${isCartPage ? "text-[#ff6633]" : ""}`}>
+                        <span className={`hidden md:block ${isCartPage ? "text-[var(--color-secondary)]" : ""}`}>
                             Корзина
                         </span>
                     </Link>
