@@ -4,7 +4,7 @@ import FavouriteButton from "@/components/FavouriteButton";
 
 const ImagesBlock = ({ product }: { product: ProductCardProps }) => {
     return (
-        <div className="flex flex-row gap-x-4 h-[248px] xl:h-[496px]">
+        <div className="flex flex-row gap-x-4 h-[248px] xl:h-[496px] self-center">
             <div className="flex flex-col justify-between h-full shrink-0">
                 {[...Array(5)].map((_, index) => (
                     <div
@@ -40,7 +40,7 @@ const ImagesBlock = ({ product }: { product: ProductCardProps }) => {
                     priority
                 />
                 {product.discountPercent && product.discountPercent > 0 ? (
-                    <div className="absolute top-5 left-5 bg-[#ff6633] text-white px-2 py-1 rounded text-sm">
+                    <div className="absolute top-5 left-5 bg-[var(--color-secondary)] text-white px-2 py-1 rounded text-sm">
                         -{product.discountPercent}%
                     </div>
                 ) : null}
