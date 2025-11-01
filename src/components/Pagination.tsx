@@ -55,9 +55,9 @@ const Pagination = ({
 
     const buttonSize =
         "w-5 h-5 md:w-10 md:h-10 flex items-center justify-center rounded duration-300";
-    const buttonActive = "bg-[#ff6633] text-white hover:bg-[#ff6633]";
-    const buttonDisabled = "bg-[#fcd5ba] cursor-not-allowed";
-    const pageButtonClass = `border border-[#ff6633] ${buttonSize}`;
+    const buttonActive = "bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary)]";
+    const buttonDisabled = "bg-[#cebdce] cursor-not-allowed";
+    const pageButtonClass = `border border-[var(--color-primary)] ${buttonSize}`;
 
     return (
         <div className="flex justify-center mt-10 mb-20 text-white text-sm md: text-base">
@@ -88,7 +88,7 @@ const Pagination = ({
                         return (
                             <span
                                 key={`ellipsis-${index}`}
-                                className={`${buttonSize} text-[#ff6633]`}
+                                className={`${buttonSize} text-[var(--color-primary)]`}
                             >
                 ...
               </span>
@@ -100,8 +100,8 @@ const Pagination = ({
                             href={createPageUrl(basePath, params, page as number)}
                             className={`${pageButtonClass} ${
                                 currentPage === page
-                                    ? "bg-[#ff6633] text-white border-transparent"
-                                    : "text-[#ff6633] bg-white hover:bg-[#ff6633] hover:text-white hover:border-transparents"
+                                    ? "bg-[var(--color-primary)] text-white border-transparent"
+                                    : "text-[var(--color-primary)] bg-white hover:bg-[var(--color-primary)] hover:text-white hover:border-transparents"
                             }`}
                         >
                             {page}
