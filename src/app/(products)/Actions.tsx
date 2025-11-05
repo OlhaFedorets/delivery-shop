@@ -9,8 +9,8 @@ const Actions = () => {
 
     return (
         <ProductsSection
-            title="Actions"
-            viewAllButton={{text: "All actions", href: "actions"}}
+            title="Акционные товары"
+            viewAllButton={{text: "Все акционные товары", href: "actions"}}
             products={actionProducts}
             compact
         />
