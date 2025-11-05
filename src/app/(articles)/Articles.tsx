@@ -7,8 +7,8 @@ const Articles = () => {
 
     return (
         <ArticlesSection
-            title="Articles"
-            viewAllButton={{text: "All articles", href: "articles"}}
+            title="Статьи"
+            viewAllButton={{text: "Все статьи", href: "articles"}}
             articles={articles}
             compact
         />
