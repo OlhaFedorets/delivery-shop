@@ -1,10 +1,9 @@
 import products from "@/data/productsDatabase.json";
-import {shuffleArray} from "@/utils/shuffleArray";
 import GeneralListPage from "@/app/(products)/GeneralListPage";
 
 export const metadata = {
-    title: 'Акции магазина "Северяночка"',
-    description: 'Акционные товары магазина "Северяночка"',
+    title: 'Акции магазина "Mypetshop"',
+    description: 'Акционные товары магазина "Mypetshop"',
 };
 
 const AllActions = async ({
@@ -21,15 +20,10 @@ const AllActions = async ({
             searchParams={searchParams}
             props={{
                 data: actionProducts,
-                pageTitle: "All actions",
+                pageTitle: "Акционные товары",
                 basePath: "/actions",
             }}
         />
-        // <ProductsSection
-        //     title="All actions"
-        //     viewAllButton={{text: "Go to main", href: "/"}}
-        //     products={actionProducts}
-        // />
     );
 };
 
