@@ -2,8 +2,8 @@ import products from "@/data/productsDatabase.json";
 import GeneralListPage from "@/app/(products)/GeneralListPage";
 
 export const metadata = {
-    title: 'Новинки магазина "Северяночка"',
-    description: 'Новые товары магазина "Северяночка"',
+    title: 'Новинки магазина "Mypetshop"',
+    description: 'Новые товары магазина "Mypetshop"',
 };
 
 const AllNew = async ({
@@ -20,15 +20,10 @@ const AllNew = async ({
             searchParams={searchParams}
             props={{
                 data: newProducts,
-                pageTitle: "New",
+                pageTitle: "Новинки",
                 basePath: "/new"
             }}
         />
-        // <ProductsSection
-        //     title="New"
-        //     viewAllButton={{text: "Go to main", href: "/"}}
-        //     products={newProducts}
-        // />
     );
 };
 
