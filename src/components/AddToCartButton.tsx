@@ -1,12 +1,11 @@
 "use client";
 
-
 import {useCartStore} from "@/store/cartStore";
 
 const AddToCartButton = ({productId}: { productId: string }) => {
     const {cartItems, updateCart} = useCartStore();
 
-    const handleSubmit = async () => {
+    const handleAddToCart = () => {
         // Проверяем, есть ли товар уже в корзине
         const existingItem = cartItems.find(
             (item) => item.productId === productId
@@ -33,18 +32,14 @@ const AddToCartButton = ({productId}: { productId: string }) => {
     };
 
     return (
-        <div className="relative">
-            <form action={handleSubmit}>
-                <button
-                    type="submit"
-                    className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-[var(--color-secondary)]
+        <button
+            onClick={handleAddToCart}
+            className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-[var(--color-secondary)]
                     hover:border-transparent active:shadow-(--shadow-button-active) h-10 rounded justify-center items-center text-primary
                     transition-all duration-300 cursor-pointer select-none"
-                >
-                    В корзину
-                </button>
-            </form>
-        </div>
+        >
+            В корзину
+        </button>
     );
 };
 
