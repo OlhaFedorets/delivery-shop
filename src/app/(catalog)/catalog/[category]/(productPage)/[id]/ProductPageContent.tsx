@@ -1,5 +1,5 @@
 import {ProductCardProps} from "@/types/product";
-import {CONFIG} from "../../../../../../../config/config";
+import {CONFIG} from "@/../config/config";
 import StarRating from "@/components/StarRating";
 import ImagesBlock from "./_components/ImagesBlock";
 import ProductOffer from "./_components/ProductOffer";
@@ -23,11 +23,10 @@ const ProductPageContent = ({
     const cardPrice = discountedPrice * (1 - CONFIG.CARD_DISCOUNT_PERCENT / 100);
     const bonusesAmount = cardPrice * 0.05;
 
-    // @ts-ignore
     return (
-        <div className="px-[max(12px,calc((100%-1208px)/2))] md:px-[max(16px,calc((100%-1208px)/2))] text-main-text">
+        <div className="px-[max(12px,calc((100%-1208px)/2))] md:px-[max(16px,calc((100%-1208px)/2))] text-main-text mb-10">
             <h1 className="text-xl md:text-2xl font-bold mb-4">{product.description}</h1>
-            <div className="flex flex-col gap-y-25 md:gap-y-20 xl:gap-y-30">
+            <div className="flex flex-col gap-y-25 md:gap-y-20">
                     <div className="flex flex-row flex-wrap gap-2 items-center">
                         <StarRating rating={product.rating.rate || 5} />
                         <p className="text-sm underline">
@@ -35,7 +34,7 @@ const ProductPageContent = ({
                         </p>
                     </div>
 
-                <div className="flex flex-col md:flex-row md:flex-wrap gap-10 w-full justify-center mt-4 xl:mt-8">
+                <div className="flex flex-col md:flex-row md:flex-wrap gap-10 w-full justify-center  mt-4 xl:mt-8">
                     <ImagesBlock product={product} />
                     <div className="md:w-[344px] lg:w-[376px] flex flex-col">
                         <ProductOffer

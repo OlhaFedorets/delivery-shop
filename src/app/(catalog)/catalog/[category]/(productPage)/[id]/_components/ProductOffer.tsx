@@ -22,7 +22,7 @@ const ProductOffer = ({ discountedPrice, cardPrice }: ProductOfferProps) => {
                 </p>
                 <div className="flex flex-row gap-x-1 items-center relative">
                     <p className="text-[#bfbfbf] text-[8px] md:text-xs">
-                        С картой Северяночки
+                        С картой Mypetshop
                     </p>
                     <div className="group relative cursor-help">
                         <Image
@@ -34,7 +34,7 @@ const ProductOffer = ({ discountedPrice, cardPrice }: ProductOfferProps) => {
                         />
                         <div className="absolute right-0 bottom-full mb-2 w-48 p-3 bg-white border border-gray-200 shadow-lg rounded-md text-xs text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-50">
                             Скидка {CONFIG.CARD_DISCOUNT_PERCENT}% по карте лояльности
-                            «Северяночка». Оформите карту на кассе или закажите с курьером!
+                            «Mypetshop». Оформите карту на кассе или закажите с курьером!
                         </div>
                     </div>
                 </div>
