@@ -1,11 +1,11 @@
 import { create } from "zustand";
-import {Product} from "@/types/cart";
+import {ProductCardProps} from "@/types/product";
 import productsData from "@/data/productsDatabase.json"
 
 interface FavouriteState {
     favourites: string[];
     totalFavourites: number;
-    getFavouriteProducts: () => Product[];
+    getFavouriteProducts: () => ProductCardProps[];
     toggleFavourite: (productId: string) => void;
     isFavourite: (productId: string) => boolean;
     clearFavourites: () => void;
@@ -15,11 +15,11 @@ export const useFavouriteStore = create<FavouriteState>((set, get) => ({
     favourites: [],
     totalFavourites: 0,
 
-    getFavouriteProducts: (): Product[] => {
+    getFavouriteProducts: (): ProductCardProps[] => {
         const { favourites } = get();
         return favourites
             .map(id => productsData.find(product => product.id.toString() === id))
-            .filter((product): product is Product => product !== undefined);
+            .filter((product): product is ProductCardProps => product !== undefined);
     },
 
     toggleFavourite: (productId: string) => {

@@ -8,7 +8,6 @@ const FavoriteButton = ({productId}: { productId: string }) => {
 
     const {toggleFavourite, isFavourite  } = useFavouriteStore();
 
-
     const handleClick = () => {
         toggleFavourite(productId)
     };
