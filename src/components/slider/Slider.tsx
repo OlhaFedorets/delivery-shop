@@ -1,7 +1,7 @@
 "use client"
 
-import FirstSlide from "@/components/Slider/FirstSlide";
-import SecondSlide from "@/components/Slider/SecondSlide";
+import FirstSlide from "@/components/slider/FirstSlide";
+import SecondSlide from "@/components/slider/SecondSlide";
 import {motion} from "framer-motion";
 
 const Slider = () => {
