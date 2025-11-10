@@ -25,7 +25,7 @@ const CartSummary = () => {
 
                 {hasCard && summary.cardDiscount > 0 && (
                     <div className="flex justify-between text-[var(--color-tertiary)]">
-                        <span>Скидка по карте (6%)</span>
+                        <span>Скидка по карте (7%)</span>
                         <span>-{summary.cardDiscount.toFixed(2)} руб.</span>
                     </div>
                 )}
