@@ -35,7 +35,7 @@ const GeneralListPage = async ({
                     <ProductsSection
                         title={props.pageTitle}
                         products={paginatedItems as ProductCardProps[]}
-                        applyIndexStyles={props.contentType === "category" ? false : true}
+                        applyIndexStyles={props.contentType !== "category"}
                         contentType={props.contentType}
                     />
                 ) : (
