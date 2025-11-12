@@ -2,21 +2,17 @@
   {
     "id": 1,
     "img": "/images/products/img-1.jpeg",
-    "title": "Блинчики с мясом",
-    "description": "Г/Ц Блинчики с мясом вес, Россия",
-    "basePrice": 89,
+    "title": "Корм Petvador",
+    "description": "Корм Petvador для активых собак средних и крупных пород, 2.5 кг",
+    "basePrice": 1289,
     "discountPercent": 20,
     "rating": {
       "rate": 4.2,
-      "count": 120
+      "count": 62
     },
-    "categories": [
-      "bread",
-      "meat",
-      "frozen"
-    ],
-    "weight": 0.4,
-    "quantity": 100,
+    "category": "food",
+    "weight": 2.5,
+    "quantity": 70,
     "tags": [
       "actions"
     ]
@@ -24,18 +20,16 @@
   {
     "id": 2,
     "img": "/images/products/img-2.jpeg",
-    "title": "Молоко Простоквашино",
-    "description": "Молоко пастеризованное цельное",
-    "basePrice": 89,
-    "discountPercent": 15,
+    "title": "Аппетитные кусочки Felix",
+    "description": "Аппетитные кусочки Felix ягненок в желе",
+    "basePrice": 29,
+    "discountPercent": 10,
     "rating": {
       "rate": 4.5,
       "count": 27
     },
-    "categories": [
-      "dairy"
-    ],
-    "weight": 1,
+    "category": "food",
+    "weight": 0.2,
     "quantity": 10,
     "tags": [
       "actions"
@@ -44,38 +38,32 @@
   {
     "id": 3,
     "img": "/images/products/img-3.jpeg",
-    "title": "Колбаса Сальчичон",
-    "description": "Колбаса сырокопченая премиум класса",
-    "basePrice": 350,
-    "discountPercent": 25,
+    "title": "Бисквитные косточки TitBit",
+    "description": "Бисквитные косточки TitBit с морковью и кабачками",
+    "basePrice": 150,
+    "discountPercent": 0,
     "rating": {
       "rate": 4.8,
       "count": 35
     },
-    "categories": [
-      "meat"
-    ],
-    "weight": 0.5,
-    "quantity": 0,
-    "tags": [
-      "actions"
-    ]
+    "category": "food",
+    "weight": 0.2,
+    "quantity": 50,
+    "tags": []
   },
   {
     "id": 4,
     "img": "/images/products/img-4.jpeg",
-    "title": "Сосиски Молочные",
-    "description": "Сосиски вареные высшего сорта",
-    "basePrice": 250,
+    "title": "Кусочки в подливке Gourmet Gold",
+    "description": "Кусочки в подливке Gourmet Gold с форелью и овощами",
+    "basePrice": 150,
     "discountPercent": 10,
     "rating": {
       "rate": 2.4,
       "count": 75
     },
-    "categories": [
-      "meat"
-    ],
-    "weight": 0.4,
+    "category": "food",
+    "weight": 0.2,
     "quantity": 34,
     "tags": [
       "actions"
@@ -84,36 +72,32 @@
   {
     "id": 5,
     "img": "/images/products/img-5.jpeg",
-    "title": "Колбаса Сальчинон",
-    "description": "Колбаса сырокопченая",
-    "basePrice": 599.99,
+    "title": "Мясные колбаски из утки",
+    "description": "Мясные колбаски из утки Деревенские лакомства",
+    "basePrice": 120,
     "discountPercent": 0,
     "rating": {
       "rate": 3.5,
       "count": 6
     },
-    "categories": [
-      "meat"
-    ],
-    "weight": 0.6,
-    "quantity": 0,
+    "category": "food",
+    "weight": 0.5,
+    "quantity": 10,
     "tags": []
   },
   {
     "id": 6,
     "img": "/images/products/img-6.jpeg",
-    "title": "Сыр Ламбер",
-    "description": "Сыр Ламбер Маасдам полутвердый 45%, 180г",
-    "basePrice": 134.99,
+    "title": "Корм для щенков Grandorf",
+    "description": "Корм для щенков от 4 месяев Grandorf с ягненком, 3 кг",
+    "basePrice": 3050.99,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "dairy"
-    ],
-    "weight": 0.18,
+    "category": "food",
+    "weight": 3.0,
     "quantity": 18,
     "tags": [
       "new"
@@ -122,40 +106,33 @@
   {
     "id": 7,
     "img": "/images/products/img-7.jpeg",
-    "title": "Пельмени Сибирская коллекция",
-    "description": "Пельмени Сибирская коллекция, категория В, 700г",
-    "basePrice": 360,
+    "title": "Корм для кошек Organix",
+    "description": "Корм для стирилизованных взрослых кошек Organix с кроликом, 5 кг",
+    "basePrice": 2360,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 4
     },
-    "categories": [
-      "meat",
-      "frozen"
-    ],
-    "weight": 0.7,
-    "quantity": 100,
-    "tags": [
-      "new"
-    ]
+    "category": "food",
+    "weight": 5.0,
+    "quantity": 10,
+    "tags": []
   },
   {
     "id": 8,
     "img": "/images/products/img-8.jpeg",
-    "title": "Сырок творожный",
-    "description": "Сырок творожный Родимая Сторонка 8% с изюмом 100г, категория В, 700г",
-    "basePrice": 64.99,
+    "title": "Корм для кошек Wellkiss",
+    "description": "Корм для стирилизованных кошек Wellkiss с ягненком, 3 кг",
+    "basePrice": 1100.99,
     "discountPercent": 0,
     "rating": {
-      "rate": 5,
-      "count": 3
+      "rate": 0,
+      "count": 0
     },
-    "categories": [
-      "dairy"
-    ],
-    "weight": 0.1,
-    "quantity": 100,
+    "category": "food",
+    "weight": 3.0,
+    "quantity": 20,
     "tags": [
       "new"
     ]
@@ -163,120 +140,96 @@
   {
     "id": 9,
     "img": "/images/products/img-9.jpeg",
-    "title": "Печенье Юбилейное",
-    "description": "Печенье витаминизированное Юбилейное традиционное 134 г - отзывы покупателей на маркетплейсе Мегамаркет",
-    "basePrice": 55,
+    "title": "Корм для собак Pedigree",
+    "description": "Корм для маленьких пород собак с 12 месяцев Pedigree, 0,6 кг",
+    "basePrice": 550,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 2
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.134,
-    "quantity": 100,
-    "tags": [
-      "new"
-    ]
+    "category": "food",
+    "weight": 0.6,
+    "quantity": 54,
+    "tags": []
   },
   {
     "id": 10,
     "img": "/images/products/img-10.jpeg",
-    "title": "Свинина Тушеная",
-    "description": "Свинина тушеная ГОСТ Сытый боярин 325 г",
+    "title": "Консервы для собак и кошек VetDiet",
+    "description": "Консервы для собак и кошек VetDiet, 350 г",
     "basePrice": 160,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 2
     },
-    "categories": [
-      "meat"
-    ],
+    "category": "food",
     "weight": 0.35,
-    "quantity": 100,
-    "tags": [
-      "new"
-    ]
+    "quantity": 3,
+    "tags": []
   },
   {
     "id": 11,
     "img": "/images/products/img-11.jpeg",
-    "title": "Томатный соус",
-    "description": "Соус томатный Помидорка для пасты 350 мл",
+    "title": "Мини-косточки Triol",
+    "description": "Мини-косточки для мини-собак Triol с кроликом",
     "basePrice": 137,
-    "discountPercent": 20,
-    "rating": {
-      "rate": 5,
-      "count": 2
-    },
-    "categories": [],
-    "weight": 0.35,
-    "quantity": 100,
-    "tags": [
-      "actions"
-    ]
-  },
-  {
-    "id": 12,
-    "img": "/images/products/img-12.jpeg",
-    "title": "Имунеле For kids 1,5%",
-    "description": "Напиток кисломолочный с соком Имунеле For kids 1,5% 100 гр клубничное мороженое БЗМЖ",
-    "basePrice": 36,
-    "discountPercent": 10,
-    "rating": {
-      "rate": 5,
-      "count": 2
-    },
-    "categories": [
-      "kids",
-      "dairy",
-      "healthy"
-    ],
-    "weight": 0.1,
-    "quantity": 17,
-    "tags": [
-      "actions"
-    ]
-  },
-  {
-    "id": 13,
-    "img": "/images/products/img-13.jpeg",
-    "title": "Напиток молочно-соковый",
-    "description": "Напиток молочно-соковый Мажитэль Party 950г пина колада БЗМЖ",
-    "basePrice": 142,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 2
     },
-    "categories": [
-      "dairy",
-      "healthy"
-    ],
-    "weight": 0.95,
+    "category": "food",
+    "weight": 0.35,
+    "quantity": 30,
+    "tags": []
+  },
+  {
+    "id": 12,
+    "img": "/images/products/img-12.jpeg",
+    "title": "Мини-колбаски AlpenHof",
+    "description": "Мини-колбаски баварские из ягненка AlpenHof для кошек",
+    "basePrice": 360.25,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 2
+    },
+    "category": "food",
+    "weight": 0.25,
+    "quantity": 17,
+    "tags": []
+  },
+  {
+    "id": 13,
+    "img": "/images/products/img-13.jpeg",
+    "title": "Медальоны мясные из курицы и утки",
+    "description": "Медальоны мясные из курицы и утки Деревенские лакомства, для собак от 1 года",
+    "basePrice": 242,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 2
+    },
+    "category": "food",
+    "weight": 0.35,
     "quantity": 13,
-    "tags": [
-      "new"
-    ]
+    "tags": []
   },
   {
     "id": 14,
     "img": "/images/products/img-14.jpeg",
-    "title": "Индейка 'Индилайт' охлажденная",
-    "description": "Лангет из индейки Индилайт охлажденный 400 г",
-    "basePrice": 270,
-    "discountPercent": 10,
+    "title": "Влажный корм для собак Cesar",
+    "description": "Влажный корм для собак Cesar с ягненком и овощами",
+    "basePrice": 58,
+    "discountPercent": 20,
     "rating": {
       "rate": 4.8,
       "count": 67
     },
-    "categories": [
-      "dairy",
-      "healthy"
-    ],
-    "weight": 0.4,
+    "category": "food",
+    "weight": 0.2,
     "quantity": 19,
     "tags": [
       "actions"
@@ -285,79 +238,67 @@
   {
     "id": 15,
     "img": "/images/products/img-15.jpeg",
-    "title": "Черешня",
-    "description": "Черешня свежая 100 г",
-    "basePrice": 45,
-    "discountPercent": 10,
+    "title": "Корм для кошек ProBalance",
+    "description": "Корм для взрослых кошек ProBalance, 400 г",
+    "basePrice": 450,
+    "discountPercent": 0,
     "rating": {
       "rate": 4.8,
       "count": 399
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
-    "weight": 0.1,
+    "category": "food",
+    "weight": 0.4,
     "quantity": 132,
-    "tags": [
-      "actions"
-    ]
+    "tags": []
   },
   {
     "id": 16,
     "img": "/images/products/img-16.jpeg",
-    "title": "Томаты, помидоры",
-    "description": "Томаты Бычье сердце",
+    "title": "Поилка для собак",
+    "description": "Поилка для собак",
     "basePrice": 200,
     "discountPercent": 0,
     "rating": {
       "rate": 4.8,
-      "count": 325
+      "count": 3
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
+    "category": "feeding-accessories",
     "weight": 1,
-    "quantity": 100,
+    "quantity": 6,
+    "tags": []
+  },
+  {
+    "id": 17,
+    "img": "/images/products/img-17.jpeg",
+    "title": "Поилка-кормушка",
+    "description": "Поилка-кормушка для собак на веревочке",
+    "basePrice": 520,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "feeding-accessories",
+    "weight": 1,
+    "quantity": 10,
     "tags": [
       "new"
     ]
   },
   {
-    "id": 17,
-    "img": "/images/products/img-17.jpeg",
-    "title": "Шашлык",
-    "description": "Шашлык свиной",
-    "basePrice": 320,
-    "discountPercent": 10,
-    "rating": {
-      "rate": 4.4,
-      "count": 325
-    },
-    "categories": [
-      "meat"
-    ],
-    "weight": 1,
-    "quantity": 100,
-    "tags": [
-      "actions"
-    ]
-  },
-  {
     "id": 18,
     "img": "/images/products/img-18.jpeg",
-    "title": "Кукурузные палочки",
-    "description": "Кукурузные палочки в сахарной пудре Ёшки-матрёшки 120 г",
-    "basePrice": 40,
+    "title": "Набор мисок-лабиринтов",
+    "description": "Набор мисок-лабиринтов для собак и кошек",
+    "basePrice": 1050,
     "discountPercent": 10,
     "rating": {
-      "rate": 4.6,
+      "rate": 4.9,
       "count": 37
     },
-    "categories": [],
-    "weight": 0.12,
-    "quantity": 100,
+    "category": "feeding-accessories",
+    "weight": 1,
+    "quantity": 8,
     "tags": [
       "actions"
     ]
@@ -365,35 +306,31 @@
   {
     "id": 19,
     "img": "/images/products/img-19.jpeg",
-    "title": "Филе индейки",
-    "description": "Филе индейки малое охлажденное Индилайт 500 г",
-    "basePrice": 410,
+    "title": "Складная миска",
+    "description": "Складная миска для собак из силикона",
+    "basePrice": 210,
     "discountPercent": 0,
     "rating": {
       "rate": 4.8,
-      "count": 45
+      "count": 4
     },
-    "categories": [
-      "meat"
-    ],
-    "weight": 0.5,
-    "quantity": 100,
+    "category": "feeding-accessories",
+    "weight": 1,
+    "quantity": 15,
     "tags": []
   },
   {
     "id": 20,
     "img": "/images/products/img-20.jpeg",
-    "title": "Грудка цыпленка-бройлера",
-    "description": "Грудка цыпленка-бройлера охлажденная Куриная ферма",
-    "basePrice": 300,
+    "title": "Бутылочка для кормления",
+    "description": "Бутылочка для кормления щенков и котят с ершиком для мытья",
+    "basePrice": 180,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
-      "count": 29
+      "count": 9
     },
-    "categories": [
-      "meat"
-    ],
+    "category": "feeding-accessories",
     "weight": 1,
     "quantity": 22,
     "tags": []
@@ -401,36 +338,31 @@
   {
     "id": 21,
     "img": "/images/products/img-21.jpeg",
-    "title": "Наггетсы куриные",
-    "description": "Наггетсы куриные Семья довольна 300 г",
-    "basePrice": 185,
+    "title": "Бутылочка для кормления KimPets",
+    "description": "Бутылочка для кормления щенков и котят KimPets с дополнительными насадками и ершиком для мытья ",
+    "basePrice": 285,
     "discountPercent": 0,
     "rating": {
       "rate": 4.7,
-      "count": 24
+      "count": 2
     },
-    "categories": [
-      "meat",
-      "frozen"
-    ],
+    "category": "feeding-accessories",
     "weight": 1,
-    "quantity": 20,
+    "quantity": 7,
     "tags": []
   },
   {
     "id": 22,
     "img": "/images/products/img-22.jpeg",
-    "title": "Карбонад свиной охлажденный",
-    "description": "Карбонад свиной охлажденный",
-    "basePrice": 410,
+    "title": "Миски керамические",
+    "description": "Миски керамические на подставке",
+    "basePrice": 625,
     "discountPercent": 0,
     "rating": {
-      "rate": 4.4,
-      "count": 67
+      "rate": 4.9,
+      "count": 3
     },
-    "categories": [
-      "meat"
-    ],
+    "category": "feeding-accessories",
     "weight": 1,
     "quantity": 15,
     "tags": []
@@ -438,273 +370,247 @@
   {
     "id": 23,
     "img": "/images/products/img-23.jpeg",
-    "title": "Фарш говяжий охлажденный",
-    "description": "Фарш говяжий охлажденный Black Angus Мираторг 400 г",
-    "basePrice": 290,
+    "title": "Складная миска",
+    "description": "Складная силиконовая миска для собак и кошек",
+    "basePrice": 130,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
-      "count": 65
+      "count": 5
     },
-    "categories": [
-      "meat"
-    ],
-    "weight": 0.4,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 23,
     "tags": []
   },
   {
     "id": 24,
     "img": "/images/products/img-24.jpeg",
-    "title": "Сыр Пошехонский",
-    "description": "Сыр Пошехонский 45% Семья довольна 200 г БЗМЖ",
-    "basePrice": 165,
+    "title": "Подставка для собак с мисками и регулировкой",
+    "description": "Подставка для собак с мисками и регулировкой",
+    "basePrice": 865,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
-      "count": 45
+      "count": 15
     },
-    "categories": [
-      "dairy"
-    ],
-    "weight": 0.2,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 28,
     "tags": []
   },
   {
     "id": 25,
     "img": "/images/products/img-25.jpeg",
-    "title": "Сметана 20%",
-    "description": "Сметана 20% Домик в деревне 300 гр БЗМЖ",
-    "basePrice": 116,
-    "discountPercent": 0,
+    "title": "Сумочка для лакомств",
+    "description": "Сумочка для лакомств силиконовая",
+    "basePrice": 316,
+    "discountPercent": 10,
     "rating": {
       "rate": 5,
       "count": 35
     },
-    "categories": [
-      "dairy"
-    ],
-    "weight": 0.3,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 44,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 26,
     "img": "/images/products/img-26.jpeg",
-    "title": "Творог 5%",
-    "description": "Творог 5% Родные луга 180 г БЗМЖ",
-    "basePrice": 71.5,
+    "title": "Подставка для мисок",
+    "description": "Подставка с железными мисками для собак мелких пород",
+    "basePrice": 1020,
     "discountPercent": 0,
     "rating": {
-      "rate": 4,
-      "count": 19
+      "rate": 0,
+      "count": 0
     },
-    "categories": [
-      "dairy"
-    ],
-    "weight": 0.18,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 43,
-    "tags": []
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 27,
     "img": "/images/products/img-27.jpeg",
-    "title": "Молоко сгущенное",
-    "description": "Молоко сгущенное с сахаром 8,5% Вологодские молочные продукты 270 г БЗМЖ",
+    "title": "Керамическая миска",
+    "description": "Керамическая миска с удобным наклоном для кошек",
     "basePrice": 110,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
-      "count": 65
+      "count": 12
     },
-    "categories": [
-      "dairy"
-    ],
+    "category": "feeding-accessories",
     "weight": 0.27,
-    "quantity": 94,
+    "quantity": 19,
     "tags": []
   },
   {
     "id": 28,
     "img": "/images/products/img-28.jpeg",
-    "title": "Батон с изюмом",
-    "description": "Батон с изюмом 300 г",
-    "basePrice": 60.5,
+    "title": "Силиконовый коврик",
+    "description": "Силиконовый коврик под миски",
+    "basePrice": 160.5,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 25
     },
-    "categories": [
-      "bread"
-    ],
-    "weight": 0.3,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 34,
     "tags": []
   },
   {
     "id": 29,
     "img": "/images/products/img-29.jpeg",
-    "title": "Булочки чесночные",
-    "description": "Булочки чесночные 180 г",
-    "basePrice": 52.5,
+    "title": "Лизательный коврик",
+    "description": "Лизательный коврик для собак и кошек",
+    "basePrice": 352.5,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 2
     },
-    "categories": [
-      "bread"
-    ],
-    "weight": 0.18,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 43,
     "tags": []
   },
   {
     "id": 30,
     "img": "/images/products/img-30.jpeg",
-    "title": "Хлеб Пикантный",
-    "description": "Хлеб Пикантный 400 г",
-    "basePrice": 55.5,
+    "title": "Миска-лабиринт",
+    "description": "Мика-лабиринт для животных",
+    "basePrice": 155.5,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 7
     },
-    "categories": [
-      "bread"
-    ],
-    "weight": 0.4,
+    "category": "feeding-accessories",
+    "weight": 1,
     "quantity": 24,
     "tags": []
   },
   {
     "id": 31,
     "img": "/images/products/img-31.jpeg",
-    "title": "Рулет с грушевым повидлом",
-    "description": "Рулет с грушевым повидлом 160 г",
-    "basePrice": 78,
+    "title": "Интерактивная игрушка-птица",
+    "description": "Интерактивная плюшевая игрушка-птица для кошек подвесная",
+    "basePrice": 378,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
       "count": 9
     },
-    "categories": [
-      "bread"
-    ],
-    "weight": 0.16,
+    "category": "toys",
+    "weight": 1,
     "quantity": 31,
     "tags": []
   },
   {
     "id": 32,
     "img": "/images/products/img-32.jpeg",
-    "title": "Хлеб Жито в нарезку",
-    "description": "Хлеб Жито в нарезку Северодвинский хлебокомбинат 400 г",
-    "basePrice": 90,
+    "title": "Интерактивная карусель",
+    "description": "Интерактивная вращающаяся игрушка для кошек карусель",
+    "basePrice": 590,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 49
     },
-    "categories": [
-      "bread"
-    ],
-    "weight": 0.4,
+    "category": "toys",
+    "weight": 1,
     "quantity": 56,
     "tags": []
   },
   {
     "id": 33,
     "img": "/images/products/img-33.jpeg",
-    "title": "Хлеб Добрыня",
-    "description": "Хлеб Добрыня 300 г",
+    "title": "Кость",
+    "description": "Игрушка кость для собаки",
     "basePrice": 73.5,
     "discountPercent": 0,
     "rating": {
       "rate": 4.2,
       "count": 27
     },
-    "categories": [
-      "bread"
-    ],
-    "weight": 0.3,
+    "category": "toys",
+    "weight": 1,
     "quantity": 45,
     "tags": []
   },
   {
     "id": 34,
     "img": "/images/products/img-34.jpeg",
-    "title": "Хлебцы цельнозерновые пшенично-ржаные",
-    "description": "Хлебцы цельнозерновые Хлебцы Молодцы 100 г пшенично-ржаные",
-    "basePrice": 62,
+    "title": "Умный робот-мяч для кошек и собак",
+    "description": "Светящийся автоматический шарик катающийся и вращающийся сам по себе на аккумуляторе",
+    "basePrice": 462,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
-      "count": 2
+      "count": 1
     },
-    "categories": [
-      "bread",
-      "healthy"
-    ],
-    "weight": 0.1,
+    "category": "toys",
+    "weight": 1,
     "quantity": 28,
-    "tags": []
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 35,
     "img": "/images/products/img-35.jpeg",
-    "title": "Хлебцы Dr.Korner кукурузно-рисовые",
-    "description": "Хлебцы Dr.Korner 100 г кукурузно-рисовые с чиа и льном",
+    "title": "Игрушка-пищалка Курица",
+    "description": "Игрушка-пищалка Курица для собак, 30 см",
     "basePrice": 145,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 4
     },
-    "categories": [
-      "bread",
-      "healthy"
-    ],
-    "weight": 0.1,
+    "category": "toys",
+    "weight": 1,
     "quantity": 36,
     "tags": []
   },
   {
     "id": 36,
     "img": "/images/products/img-36.jpeg",
-    "title": "Хлебец Отруби-микс",
-    "description": "Хлебец Отруби-микс с морковью Хлебный Дом 330 г",
-    "basePrice": 85,
-    "discountPercent": 0,
+    "title": "Игрушка для собак Trixie Flip Board",
+    "description": "Игрушка развивающая для собак Trixie Flip Board 23 см",
+    "basePrice": 285,
+    "discountPercent": 20,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "bread",
-      "healthy"
-    ],
-    "weight": 0.33,
+    "category": "toys",
+    "weight": 1,
     "quantity": 28,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 37,
     "img": "/images/products/img-37.jpeg",
-    "title": "Яблоки зеленые",
-    "description": "Яблоки Гренни Смит",
+    "title": "Набор игрушек для средних собак",
+    "description": "Набор хлопковых игрушек для средних собак",
     "basePrice": 190,
     "discountPercent": 0,
     "rating": {
       "rate": 4.2,
       "count": 4
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
+    "category": "toys",
     "weight": 1,
     "quantity": 39,
     "tags": []
@@ -712,19 +618,16 @@
   {
     "id": 38,
     "img": "/images/products/img-38.jpeg",
-    "title": "Салат Фриллис в горшочке",
-    "description": "Салат Фриллис в горшочке 1 шт",
+    "title": "Электрическая мышка для кошек",
+    "description": "Игрушка для кошек электрическая мышка USB зарядкой для игр в помещении",
     "basePrice": 140,
     "discountPercent": 20,
     "rating": {
       "rate": 4.4,
       "count": 2
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
-    "weight": 0.21,
+    "category": "toys",
+    "weight": 1,
     "quantity": 56,
     "tags": [
       "actions"
@@ -733,18 +636,15 @@
   {
     "id": 39,
     "img": "/images/products/img-39.jpeg",
-    "title": "Груша Анжу/Пакхам",
-    "description": "Груша Анжу/Пакхам",
-    "basePrice": 200,
+    "title": "Игрушка для собак Зооник кольцо",
+    "description": "Игрушка для собак Зооник кольцо малое 11см на веревке",
+    "basePrice": 120,
     "discountPercent": 10,
     "rating": {
-      "rate": 4.3,
+      "rate": 4.8,
       "count": 5
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
+    "category": "toys",
     "weight": 1,
     "quantity": 17,
     "tags": [
@@ -754,78 +654,63 @@
   {
     "id": 40,
     "img": "/images/products/img-40.jpeg",
-    "title": "Малина замороженная",
-    "description": "Малина Семья довольна 300 г",
+    "title": "Игрушка для кошек интерактивная",
+    "description": "Игрушка для кошек интерактивная умный мяч с хвостиком",
     "basePrice": 335,
-    "discountPercent": 10,
+    "discountPercent": 0,
     "rating": {
       "rate": 4.4,
       "count": 6
     },
-    "categories": [
-      "fruit",
-      "frozen",
-      "healthy"
-    ],
-    "weight": 0.3,
+    "category": "toys",
+    "weight": 1,
     "quantity": 24,
-    "tags": [
-      "actions"
-    ]
+    "tags": []
   },
   {
     "id": 41,
     "img": "/images/products/img-41.jpeg",
-    "title": "Огурцы свежие",
-    "description": "Огурцы Кураж Вологда 400 г",
+    "title": "Игрушка для собак Утка плюшевая с пищалкой",
+    "description": "Игрушка для собак Утка плюшевая с пищалкой 37 см, мягкая жевательная для щенков средних и крупных пород",
     "basePrice": 150,
     "discountPercent": 0,
     "rating": {
-      "rate": 4.1,
+      "rate": 4.6,
       "count": 1
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
-    "weight": 0.4,
+    "category": "toys",
+    "weight": 1,
     "quantity": 19,
     "tags": []
   },
   {
     "id": 42,
     "img": "/images/products/img-42.jpeg",
-    "title": "Чеснок фасованый в сетке",
-    "description": "Чеснок фасованый в сетке",
+    "title": "Мяч игрушечный для собак",
+    "description": "Мяч игрушечный для собак 5 см, устойчивый к укусам",
     "basePrice": 70,
     "discountPercent": 0,
     "rating": {
       "rate": 4.7,
       "count": 5
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
-    "weight": 0.1,
+    "category": "toys",
+    "weight": 1,
     "quantity": 37,
     "tags": []
   },
   {
     "id": 43,
     "img": "/images/products/img-43.jpeg",
-    "title": "Капуста фиолетовая",
-    "description": "Капуста фиолетовая",
+    "title": "Удочка-дразнилка для животных GoSi",
+    "description": "Удочка-дразнилка для животных GoSi Лисичка хвост-пружинка",
     "basePrice": 160,
     "discountPercent": 0,
     "rating": {
       "rate": 4.4,
       "count": 7
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
+    "category": "toys",
     "weight": 1,
     "quantity": 90,
     "tags": []
@@ -833,18 +718,15 @@
   {
     "id": 44,
     "img": "/images/products/img-44.jpeg",
-    "title": "Дыня свежая",
-    "description": "Дыня свежая, желтая (Туркменистан)",
+    "title": "Игрушка интерактивная для кошек UFO",
+    "description": "Игрушка интерактивная для кошек UFO Грызлик Ам",
     "basePrice": 180,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 1
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
+    "category": "toys",
     "weight": 1,
     "quantity": 101,
     "tags": []
@@ -852,18 +734,15 @@
   {
     "id": 45,
     "img": "/images/products/img-45.jpeg",
-    "title": "Капуста цветная",
-    "description": "Капуста цветная",
+    "title": "Набор жевательных игрушек для собак",
+    "description": "Набор жевательных игрушек с шариковыми веревками и пищалкой для щенков средних пород",
     "basePrice": 300,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 1
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
+    "category": "toys",
     "weight": 1,
     "quantity": 49,
     "tags": []
@@ -871,150 +750,131 @@
   {
     "id": 46,
     "img": "/images/products/img-46.jpeg",
-    "title": "Салат Айсберг",
-    "description": "Салат Айсберг",
-    "basePrice": 20,
+    "title": "Куртка с капюшоном",
+    "description": "Зимняя куртка для собак с капюшоном",
+    "basePrice": 820,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 7
     },
-    "categories": [
-      "fruit",
-      "healthy"
-    ],
-    "weight": 0.1,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 34,
     "tags": []
   },
   {
     "id": 47,
     "img": "/images/products/img-47.jpeg",
-    "title": "Тесто слоеное бездрожжевое",
-    "description": "Тесто слоеное бездрожжевое Морозко 500 г",
-    "basePrice": 160,
+    "title": "Флисовый пуловер",
+    "description": "Мягкий флисовый пуловер для собак",
+    "basePrice": 260,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 9
     },
-    "categories": [
-      "frozen"
-    ],
-    "weight": 0.5,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 28,
     "tags": []
   },
   {
     "id": 48,
     "img": "/images/products/img-48.jpeg",
-    "title": "Мороженое стаканчик пломбир Коровка из Кореновки",
-    "description": "Мороженое стаканчик пломбир Коровка из Кореновки 100 г БЗМЖ",
-    "basePrice": 110,
+    "title": "Толстовка для собак",
+    "description": "Толстовка для собак крупных пород",
+    "basePrice": 1010,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 56
     },
-    "categories": [
-      "frozen",
-      "dairy"
-    ],
-    "weight": 0.1,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 58,
     "tags": []
   },
   {
     "id": 49,
     "img": "/images/products/img-49.jpeg",
-    "title": "Стейк палтуса замороженый",
-    "description": "Стейк палтуса замороженый Borealis 400 г",
-    "basePrice": 830,
-    "discountPercent": 0,
-    "rating": {
-      "rate": 4.6,
-      "count": 34
-    },
-    "categories": [
-      "frozen"
-    ],
-    "weight": 1,
-    "quantity": 77,
-    "tags": []
-  },
-  {
-    "id": 50,
-    "img": "/images/products/img-50.jpeg",
-    "title": "Пицца Жаренки Морозко",
-    "description": "Пицца Жаренки Морозко 300 г",
-    "basePrice": 220,
+    "title": "Зимний жилет",
+    "description": "Зимний повседневный жилет для маленьких собак",
+    "basePrice": 1030,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "frozen"
-    ],
-    "weight": 0.3,
+    "category": "clothes",
+    "weight": 1,
+    "quantity": 77,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 50,
+    "img": "/images/products/img-50.jpeg",
+    "title": "Дождевик для собак",
+    "description": "Прозрачный легкий дождевик-пончо для собак",
+    "basePrice": 520,
+    "discountPercent": 10,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "clothes",
+    "weight": 1,
     "quantity": 25,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 51,
     "img": "/images/products/img-51.jpeg",
-    "title": "Котлеты из индейки",
-    "description": "Котлеты Из индейки Ложкаревъ 400г",
-    "basePrice": 116,
+    "title": "Зимнее пальто для собак",
+    "description": "Зимнее пальто для собак с роговыми пуговицами",
+    "basePrice": 967,
     "discountPercent": 0,
     "rating": {
       "rate": 4.8,
       "count": 56
     },
-    "categories": [
-      "frozen",
-      "meat"
-    ],
-    "weight": 0.4,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 24,
     "tags": []
   },
   {
     "id": 52,
     "img": "/images/products/img-52.jpeg",
-    "title": "Брусника замороженная",
-    "description": "Брусника Всегда пожалуйста 300 г",
-    "basePrice": 295,
+    "title": "Дождевик для мелких собак KOMFORT",
+    "description": "Прозрачный дождевик для собак мелких пород",
+    "basePrice": 395,
     "discountPercent": 0,
     "rating": {
       "rate": 4.7,
       "count": 2
     },
-    "categories": [
-      "frozen",
-      "fruit",
-      "healthy"
-    ],
-    "weight": 0.3,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 10,
     "tags": []
   },
   {
     "id": 53,
     "img": "/images/products/img-53.jpeg",
-    "title": "Тушка кролика замороженная",
-    "description": "Тушка кролика замороженная",
+    "title": "Плащ дождевик",
+    "description": "Плащ дождевик для собак и кошек непромокаемый с капюшоном",
     "basePrice": 855,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 3
     },
-    "categories": [
-      "frozen",
-      "meat",
-      "healthy"
-    ],
+    "category": "clothes",
     "weight": 1,
     "quantity": 4,
     "tags": []
@@ -1022,37 +882,34 @@
   {
     "id": 54,
     "img": "/images/products/img-54.jpeg",
-    "title": "Вареники с картофелем и грибами",
-    "description": "Вареники с картофелем и грибами Вологодский мясокомбинат 450 г",
-    "basePrice": 130,
-    "discountPercent": 0,
+    "title": "Зимняя куртка",
+    "description": "Зимняя куртка для собак и кошек",
+    "basePrice": 930,
+    "discountPercent": 20,
     "rating": {
       "rate": 4.9,
       "count": 7
     },
-    "categories": [
-      "frozen",
-      "healthy"
-    ],
-    "weight": 0.45,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 7,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 55,
     "img": "/images/products/img-55.jpeg",
-    "title": "Напиток газированный Кола",
-    "description": "Напиток газированный Кола 0,5 л",
-    "basePrice": 40,
+    "title": "Рубашка для собак",
+    "description": "Рубашка хлопковая для собак мелких пород",
+    "basePrice": 540,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
-      "count": 5
+      "count": 1
     },
-    "categories": [
-      "drinks"
-    ],
-    "weight": 0.5,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 113,
     "tags": [
       "new"
@@ -1061,73 +918,63 @@
   {
     "id": 56,
     "img": "/images/products/img-56.jpeg",
-    "title": "Напиток сокосодержащий",
-    "description": "Напиток сокосодержащий Любимый 0,95 л тропический микс",
-    "basePrice": 120,
+    "title": "Теплая камуфляжная куртка для собаки",
+    "description": "Теплая зимняя водонепроницаемая камуфляжная куртка для собак малого и среднего размера",
+    "basePrice": 1120,
     "discountPercent": 0,
     "rating": {
       "rate": 3.6,
       "count": 65
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
+    "category": "clothes",
     "weight": 1,
-    "quantity": 76,
+    "quantity": 16,
     "tags": []
   },
   {
     "id": 57,
     "img": "/images/products/img-57.jpeg",
-    "title": "Минеральная вода газированная",
-    "description": "Минеральная вода газированная Куртяевская К-1 1,5 л",
-    "basePrice": 56,
+    "title": "Клетчатая рубашка",
+    "description": "Клетчатая рубашка для собак мелких пород и щенков",
+    "basePrice": 356,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 6
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
-    "weight": 1.5,
-    "quantity": 56,
+    "category": "clothes",
+    "weight": 1,
+    "quantity": 5,
     "tags": []
   },
   {
     "id": 58,
     "img": "/images/products/img-58.jpeg",
-    "title": "Напиток чайный Lipton зеленый",
-    "description": "Напиток чайный Lipton зеленый 1,5 л",
-    "basePrice": 56,
+    "title": "Джинсовое платье",
+    "description": "Джинсовое летнее платье для маленьких и средних собак",
+    "basePrice": 756,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 8
     },
-    "categories": [
-      "drinks"
-    ],
-    "weight": 1.5,
-    "quantity": 33,
+    "category": "clothes",
+    "weight": 1,
+    "quantity": 3,
     "tags": []
   },
   {
     "id": 59,
     "img": "/images/products/img-59.jpeg",
-    "title": "Вода питьевая негазированная",
-    "description": "Вода питьевая негазированная Шишкин лес 1 л",
-    "basePrice": 65,
-    "discountPercent": 50,
+    "title": "Рождественский жилет",
+    "description": "Рождественский жилет для кошек и собак",
+    "basePrice": 658,
+    "discountPercent": 3,
     "rating": {
       "rate": 5,
       "count": 8
     },
-    "categories": [
-      "drinks"
-    ],
+    "category": "clothes",
     "weight": 1,
     "quantity": 18,
     "tags": [
@@ -1137,92 +984,81 @@
   {
     "id": 60,
     "img": "/images/products/img-60.jpeg",
-    "title": "Вода питьевая минеральная газированная №17 Ессентуки",
-    "description": "Вода питьевая минеральная газированная №17 Ессентуки 0,45 л",
-    "basePrice": 120,
+    "title": "Комбинезон с ушками",
+    "description": "Комбинезон с ушками для щенков и собак мелких пород",
+    "basePrice": 320,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 2
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
-    "weight": 0.6,
+    "category": "clothes",
+    "weight": 1,
     "quantity": 24,
     "tags": []
   },
   {
     "id": 61,
     "img": "/images/products/img-61.jpeg",
-    "title": "Сок гранатовый",
-    "description": "Сок Nar 0,31 л гранатовый",
-    "basePrice": 81.5,
+    "title": "Гипоаллергенный шампунь WONDER LAB",
+    "description": "Гипоаллергенный шампунь WONDER LAB для кошек и котят, 550 мл",
+    "basePrice": 481.5,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 4
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
-    "weight": 0.5,
+    "category": "grooming",
+    "weight": 0.55,
     "quantity": 6,
     "tags": []
   },
   {
     "id": 62,
     "img": "/images/products/img-62.jpeg",
-    "title": "Сок яблочный",
-    "description": "Сок Сады Придонья 1 л яблочный прямого отжима",
-    "basePrice": 115,
+    "title": "Шампунь увлажняющий гипоаллергенный",
+    "description": "Шампунь для собак увлажняющий гипоаллергенный с пантенолом, 444 мл",
+    "basePrice": 515,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 3
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
-    "weight": 1,
+    "category": "grooming",
+    "weight": 0.444,
     "quantity": 34,
     "tags": []
   },
   {
     "id": 63,
     "img": "/images/products/img-63.jpeg",
-    "title": "Напиток сокосодержащий апельсин",
-    "description": "Напиток сокосодержащий Палпи Добрый 0,9 л апельсин",
-    "basePrice": 190,
-    "discountPercent": 0,
+    "title": "Экошампунь WONDER LAB",
+    "description": "Экошампунь WONDER LAB для мытья собак, 550 мл",
+    "basePrice": 390,
+    "discountPercent": 10,
     "rating": {
       "rate": 5,
       "count": 4
     },
-    "categories": [
-      "drinks"
-    ],
-    "weight": 1,
+    "category": "grooming",
+    "weight": 0.550,
     "quantity": 26,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 64,
     "img": "/images/products/img-64.jpeg",
-    "title": "Вода питьевая газированная",
-    "description": "Вода питьевая газированная Святой Источник 1 л",
-    "basePrice": 60,
+    "title": "Гребень для кошек Ferplast",
+    "description": "Гребень для кошек Ferplast с вращающимися зубцами разной длины",
+    "basePrice": 360,
     "discountPercent": 0,
     "rating": {
       "rate": 4.8,
       "count": 2
     },
-    "categories": [
-      "drinks"
-    ],
+    "category": "grooming",
     "weight": 1,
     "quantity": 45,
     "tags": []
@@ -1230,19 +1066,16 @@
   {
     "id": 65,
     "img": "/images/products/img-65.jpeg",
-    "title": "Детокс-сок облепиха-апельсин-имбирь",
-    "description": "Детокс-сок !deaS 1л облепиха-апельсин-имбирь",
-    "basePrice": 235,
+    "title": "Зоошампунь Чистотел",
+    "description": "Зоошампунь Чистотел от блох для кошек и собак универсальных, 250 мл",
+    "basePrice": 255,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 4
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
-    "weight": 1.2,
+    "category": "grooming",
+    "weight": 0.25,
     "quantity": 34,
     "tags": [
       "new"
@@ -1251,19 +1084,16 @@
   {
     "id": 66,
     "img": "/images/products/img-66.jpeg",
-    "title": "Сок апельсиновый",
-    "description": "Сок апельсиновый Rich 1 л",
-    "basePrice": 275,
+    "title": "Когтерез-секатор",
+    "description": "Когтерез-секатор для кошек и собак",
+    "basePrice": 475,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
-      "count": 8
+      "count": 1
     },
-    "categories": [
-      "drinks",
-      "healthy"
-    ],
-    "weight": 1.1,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 41,
     "tags": [
       "new"
@@ -1272,198 +1102,182 @@
   {
     "id": 67,
     "img": "/images/products/img-67.jpeg",
-    "title": "Конфеты шоколадные",
-    "description": "Конфеты шоколадные Золотая лилия Konti 100 г",
-    "basePrice": 45,
+    "title": "Шампунь-кондиционер mrBruno VIP",
+    "description": "Шампунь-кондиционер плацентарный для струящейся шерсти Мерцающий шелк, 350 мл",
+    "basePrice": 345,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 7
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.1,
+    "category": "grooming",
+    "weight": 0.35,
     "quantity": 42,
     "tags": []
   },
   {
     "id": 68,
     "img": "/images/products/img-68.jpeg",
-    "title": "Зефир глазированный",
-    "description": "Зефир глазированный с ароматом ванили Вологжанка 100 г",
-    "basePrice": 43.5,
+    "title": "Перчатка для расчесывания",
+    "description": "Перчатка для расчесывания домашних животных, удаления шерсти",
+    "basePrice": 143.5,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
       "count": 1
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.1,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 12,
     "tags": []
   },
   {
     "id": 69,
     "img": "/images/products/img-69.jpeg",
-    "title": "Печенье сахарное Twix",
-    "description": "Печенье сахарное Twix Xtra 82 г",
-    "basePrice": 80,
+    "title": "Шампунь Pamilee",
+    "description": "Шампунь очищающий для собак с цветочным ароматом Pamilee, 1000 мл",
+    "basePrice": 1080,
     "discountPercent": 0,
     "rating": {
       "rate": 4.8,
       "count": 6
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.082,
+    "category": "grooming",
+    "weight": 1.0,
     "quantity": 54,
     "tags": []
   },
   {
     "id": 70,
     "img": "/images/products/img-70.jpeg",
-    "title": "Сушки ванильные",
-    "description": "Сушки Малышка Ванильные Вологжанка 300 г",
-    "basePrice": 44,
+    "title": "Щетка Паровая",
+    "description": "Щетка Паровая для вычесывания кошачьей шерсти",
+    "basePrice": 544,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 6
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.3,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 51,
     "tags": []
   },
   {
     "id": 71,
     "img": "/images/products/img-71.jpeg",
-    "title": "Жевательная резинка Dirol",
-    "description": "Жевательная резинка Dirol 13,6 г арбузно-дынный коктейль",
-    "basePrice": 30,
+    "title": "Зоошампунь Луговой инсектицидный",
+    "description": "Зоошампунь инсектицидный для собак и кошек, 270 мл",
+    "basePrice": 230,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 5
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.014,
+    "category": "grooming",
+    "weight": 0.27,
     "quantity": 345,
     "tags": []
   },
   {
     "id": 72,
     "img": "/images/products/img-72.jpeg",
-    "title": "Карамель Chupa Chups",
-    "description": "Карамель Chupa Chups 12г фруктовая с соком",
-    "basePrice": 13,
-    "discountPercent": 0,
+    "title": "Щетка для шерсти",
+    "description": "Щетка для собачьей и кошачьей шерсти",
+    "basePrice": 250,
+    "discountPercent": 15,
     "rating": {
       "rate": 5,
       "count": 5
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.012,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 445,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 73,
     "img": "/images/products/img-73.jpeg",
-    "title": "Конфеты Джек Шоколадные истории Konti",
-    "description": "Конфеты Джек Шоколадные истории Konti",
-    "basePrice": 50,
+    "title": "Двусторонняя расческа-щетка",
+    "description": "Двусторонняя расческа-щетка для животных",
+    "basePrice": 725,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 3
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.1,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 156,
     "tags": []
   },
   {
     "id": 74,
     "img": "/images/products/img-74.jpeg",
-    "title": "Сухари изюмные",
-    "description": "Сухари Яркая цена 300 г изюмные",
-    "basePrice": 56,
+    "title": "Пуходерка с каплей",
+    "description": "Пуходерка для кошек и собак HELLO PET пластиковая, с каплей",
+    "basePrice": 156,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 8
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.3,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 43,
     "tags": []
   },
   {
     "id": 75,
     "img": "/images/products/img-75.jpeg",
-    "title": "Вафли с ароматом шоколада",
-    "description": "Вафли Вологжанка 200 г с ароматом шоколада",
-    "basePrice": 77,
+    "title": "Колтунорез LolUno Home",
+    "description": "Колтунорез LolUno Home для длинношерстных и короткошерстных собак и кошек",
+    "basePrice": 775,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 1
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.2,
+    "category": "grooming",
+    "weight": 1,
     "quantity": 40,
-    "tags": []
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 76,
     "img": "/images/products/img-76.jpeg",
-    "title": "Печенье Choco Pie Cacao Lotte",
-    "description": "Печенье Choco Pie Cacao Lotte 12шт Х 28 гр",
-    "basePrice": 240,
+    "title": "Шлейка со светоотражающими элементами",
+    "description": "Шлейка со светоотражающими элементами + поводок для собак р-р XS",
+    "basePrice": 640,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "confectionery"
-    ],
-    "weight": 0.336,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 18,
-    "tags": []
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 77,
     "img": "/images/products/img-77.jpeg",
-    "title": "Кофе растворимый",
-    "description": "Кофе растворимый Nescafe Gold 95 г",
+    "title": "Шлейка + поводок ИпКис",
+    "description": "Шлейка + поводок набор ИпКис для кошек, собак оранжевая, 130 см ",
     "basePrice": 370,
     "discountPercent": 10,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
-    "weight": 0.14,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 57,
     "tags": [
       "actions"
@@ -1472,17 +1286,15 @@
   {
     "id": 78,
     "img": "/images/products/img-78.jpeg",
-    "title": "Чай черный",
-    "description": "Чай черный Greenfield Golden Ceylon 100 пак",
+    "title": "Брезентовый поводок",
+    "description": "Брезентовый поводок для собаки 5 метров",
     "basePrice": 468,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
+    "category": "outdoor-equipment",
     "weight": 0.2,
     "quantity": 56,
     "tags": []
@@ -1490,18 +1302,16 @@
   {
     "id": 79,
     "img": "/images/products/img-79.jpeg",
-    "title": "Чай черный",
-    "description": "Чай черный Greenfield Golden Ceylon 25 пак",
-    "basePrice": 100,
+    "title": "Поводок-рулетка Flexi",
+    "description": "Поводок-рулетка для собак Flexi, S - 5м, до 12 кг",
+    "basePrice": 420,
     "discountPercent": 5,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
-    "weight": 0.05,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 177,
     "tags": [
       "actions"
@@ -1510,94 +1320,82 @@
   {
     "id": 80,
     "img": "/images/products/img-80.jpeg",
-    "title": "Цикорий растворимый",
-    "description": "Цикорий растворимый Экологика 85 г",
-    "basePrice": 360,
-    "discountPercent": 5,
+    "title": "Нейлоновая шлея",
+    "description": "Регулируемая нейлоновая шлея для крупных пород собак",
+    "basePrice": 380,
+    "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee",
-      "healthy"
-    ],
-    "weight": 0.12,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 78,
-    "tags": [
-      "actions"
-    ]
+    "tags": []
   },
   {
     "id": 81,
     "img": "/images/products/img-81.jpeg",
-    "title": "Чай зеленый",
-    "description": "Чай зеленый Принцесса Ява сочный лимон 25 пак",
-    "basePrice": 73.5,
+    "title": "Поводок-рулетка Flexi NEW COMFORT",
+    "description": "Поводок-рулетка для собак Flexi NEW COMFORT, ременной, 5 м ",
+    "basePrice": 573.5,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 2
     },
-    "categories": [
-      "tea-coffee",
-      "healthy"
-    ],
-    "weight": 0.05,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 20,
     "tags": []
   },
   {
     "id": 82,
     "img": "/images/products/img-82.jpeg",
-    "title": "Чай черный",
-    "description": "Чай черный Принцесса Нури 25 пак черная смородина",
-    "basePrice": 82,
+    "title": "Мягкий поводок",
+    "description": "Мягкий поводок, 1,5 м",
+    "basePrice": 182,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
-    "weight": 0.05,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 32,
     "tags": []
   },
   {
     "id": 83,
     "img": "/images/products/img-83.jpeg",
-    "title": "Чай черный",
-    "description": "Чай черный Ahmad Tea Raspberry Indulgence 25 пак",
+    "title": "Ошейник двойной Зооник",
+    "description": "Ошейник двойной для собак Зооник, брезент, металл, тёмно-зелёный, 51-72 см, 45 мм",
     "basePrice": 210,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
-    "weight": 0.05,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 11,
-    "tags": []
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 84,
     "img": "/images/products/img-84.jpeg",
-    "title": "Кофе сублимированный",
-    "description": "Кофе сублимированный Monarch Original 130 г",
+    "title": "Поводок для собак Зооник",
+    "description": "Поводок для собак Зооник, брезент, сталь, песочный, 3 м, 20 мм",
     "basePrice": 500,
     "discountPercent": 5,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
-    "weight": 0.18,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 56,
     "tags": [
       "actions"
@@ -1606,17 +1404,15 @@
   {
     "id": 85,
     "img": "/images/products/img-85.jpeg",
-    "title": "Кофе в зернах",
-    "description": "Кофе в зернах Lebo extra арабика 1000г",
-    "basePrice": 2500,
+    "title": "Намордник для собак TRIXIE",
+    "description": "Намордник для собак TRIXIE пластиковый, размер XS",
+    "basePrice": 290,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
+    "category": "outdoor-equipment",
     "weight": 1,
     "quantity": 22,
     "tags": [
@@ -1626,235 +1422,213 @@
   {
     "id": 86,
     "img": "/images/products/img-86.jpeg",
-    "title": "Чай черный",
-    "description": "Чай черный Sun Tea Hills Ягодный коктейль 20 пирамидок",
-    "basePrice": 70,
+    "title": "Намордник на мини-собачек",
+    "description": "Намордник на мини-собачек черный, нейлон",
+    "basePrice": 170,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "tea-coffee"
-    ],
-    "weight": 0.036,
+    "category": "outdoor-equipment",
+    "weight": 1,
     "quantity": 44,
     "tags": []
   },
   {
     "id": 87,
     "img": "/images/products/img-87.jpeg",
-    "title": "Сахар белый кусковой",
-    "description": "Сахар белый кусковой 500 г",
-    "basePrice": 73,
+    "title": "Строгий ошейник",
+    "description": "Строгий ошейник для собак средних и больших размеров",
+    "basePrice": 273,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 7
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.5,
-    "quantity": 344,
+    "category": "outdoor-equipment",
+    "weight": 1,
+    "quantity": 14,
     "tags": []
   },
   {
     "id": 88,
     "img": "/images/products/img-88.jpeg",
-    "title": "Соль каменная",
-    "description": "Соль каменная 1 кг",
-    "basePrice": 18,
+    "title": "Шлейка+поводок Конфетти-ИКС",
+    "description": "Шлейка+поводок д/кошек и кроликов 27-32 см",
+    "basePrice": 180,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 7
     },
-    "categories": [
-      "grocery"
-    ],
+    "category": "outdoor-equipment",
     "weight": 1,
-    "quantity": 278,
+    "quantity": 27,
     "tags": []
   },
   {
     "id": 89,
     "img": "/images/products/img-89.jpeg",
-    "title": "Крупа рис круглозерный",
-    "description": "Крупа рис круглозерный Яркая цена 800 г",
-    "basePrice": 60,
+    "title": "Электронный ошейник Kattami",
+    "description": "Электронный ошейник для дрессировки собак Kattami ",
+    "basePrice": 1060,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 7
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.8,
-    "quantity": 184,
+    "category": "outdoor-equipment",
+    "weight": 1,
+    "quantity": 18,
     "tags": []
   },
   {
     "id": 90,
     "img": "/images/products/img-90.jpeg",
-    "title": "Хлопья овсяные Геркулес",
-    "description": "Хлопья овсяные Геркулес Яркая цена 400 г",
-    "basePrice": 19,
+    "title": "Поводок-водилка Pets & Friends",
+    "description": "Поводок-водилка Pets & Friends для собак, натуральная кожа, 55 см",
+    "basePrice": 519,
     "discountPercent": 0,
     "rating": {
       "rate": 4.2,
       "count": 7
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.4,
-    "quantity": 126,
+    "category": "outdoor-equipment",
+    "weight": 1,
+    "quantity": 16,
     "tags": []
   },
   {
     "id": 91,
     "img": "/images/products/img-91.jpeg",
-    "title": "Макароны Рожки гладкие",
-    "description": "Макароны Рожки гладкие Яркая цена 400 г",
-    "basePrice": 19,
+    "title": "Лежанка-домик NOBBY LASA",
+    "description": "Лежанка-домик NOBBY LASA 45х45х37 см плетеный бежевый",
+    "basePrice": 1195,
     "discountPercent": 0,
     "rating": {
-      "rate": 4.4,
+      "rate": 4.8,
       "count": 6
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.4,
-    "quantity": 93,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 13,
     "tags": []
   },
   {
     "id": 92,
     "img": "/images/products/img-92.jpeg",
-    "title": "Хлопья овсяные",
-    "description": "Хлопья овсяные №2 Ясно солнышко 500 г",
-    "basePrice": 100,
-    "discountPercent": 0,
+    "title": "Лежанка MidWest Pet Bed",
+    "description": "Лежанка MidWest Pet Bed для собак и кошек меховая 61х46 см, коричневая",
+    "basePrice": 800,
+    "discountPercent": 10,
     "rating": {
       "rate": 4.9,
       "count": 87
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.5,
-    "quantity": 166,
-    "tags": []
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 6,
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 93,
     "img": "/images/products/img-93.jpeg",
-    "title": "Макароны Перья гладкие",
-    "description": "Макароны Перья гладкие Яркая цена 400 г",
-    "basePrice": 19,
+    "title": "DogModa Лежак Розовая пантера",
+    "description": "Лежак DogModa Розовая пантера для собак и кошек, холлофайбер",
+    "basePrice": 1250,
     "discountPercent": 0,
     "rating": {
       "rate": 4.1,
       "count": 11
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.4,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
     "quantity": 34,
     "tags": []
   },
   {
     "id": 94,
     "img": "/images/products/img-94.jpeg",
-    "title": "Макароны Улитки",
-    "description": "Макароны Улитки Makfa 400 гр",
-    "basePrice": 70,
+    "title": "Лежанка для домашних животных Ihome",
+    "description": "Треугольная Лежанка для домашних животных Ihome для кошек и собак ",
+    "basePrice": 1170,
     "discountPercent": 0,
     "rating": {
       "rate": 4.7,
       "count": 17
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.4,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
     "quantity": 27,
     "tags": []
   },
   {
     "id": 95,
     "img": "/images/products/img-95.jpeg",
-    "title": "Крупа греча ядрица",
-    "description": "Крупа греча ядрица Сытый боярин 800 г",
-    "basePrice": 70,
+    "title": "Дом-когтеточка Домоседы",
+    "description": "Домоседы Дом-когтеточка для кошек круглый с лежанкой и игрушкой, бежевый",
+    "basePrice": 1270,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
       "count": 13
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.8,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
     "quantity": 19,
     "tags": []
   },
   {
     "id": 96,
     "img": "/images/products/img-96.jpeg",
-    "title": "Мука пшеничная",
-    "description": "Мука пшеничная высший сорт Makfa 2 кг",
-    "basePrice": 130,
+    "title": "Лежанка из ротанга",
+    "description": "Лежанка из ротанга для кошки",
+    "basePrice": 1030,
     "discountPercent": 0,
     "rating": {
-      "rate": 4.6,
-      "count": 16
+      "rate": 0,
+      "count": 0
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 2,
-    "quantity": 68,
-    "tags": []
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 8,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 97,
     "img": "/images/products/img-97.jpeg",
-    "title": "Крупа пшено шлифованное",
-    "description": "Крупа пшено шлифованное Яркая цена 800 г",
-    "basePrice": 32,
+    "title": "Домик Зоофортуна Ракушка",
+    "description": "Домик для собак и кошек Зоофортуна Ракушка",
+    "basePrice": 1332,
     "discountPercent": 0,
     "rating": {
       "rate": 4.2,
       "count": 16
     },
-    "categories": [
-      "grocery"
-    ],
-    "weight": 0.8,
-    "quantity": 62,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 6,
     "tags": []
   },
   {
     "id": 98,
     "img": "/images/products/img-98.jpeg",
-    "title": "Корм для кошек",
-    "description": "Корм для кошек Kitekat 85г с говядиной в соусе",
-    "basePrice": 25,
+    "title": "Комплекс для кошек Solmax",
+    "description": "Комплекс для кошек Solmax игровой с когтеточкой, лежанкой и игрушкой, белый, 31х31х58 см",
+    "basePrice": 1525,
     "discountPercent": 10,
     "rating": {
       "rate": 4.6,
       "count": 18
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 0.085,
-    "quantity": 654,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 14,
     "tags": [
       "actions"
     ]
@@ -1862,361 +1636,331 @@
   {
     "id": 99,
     "img": "/images/products/img-99.jpeg",
-    "title": "Корм для кошек",
-    "description": "Корм для кошек Whiskas 75 г паштет с уткой",
-    "basePrice": 26,
+    "title": "Когтеточка с домиком Трикси",
+    "description": "Когтеточка с домиком для кошки Трикси",
+    "basePrice": 1526,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 12
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 0.075,
-    "quantity": 324,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 4,
     "tags": []
   },
   {
     "id": 100,
     "img": "/images/products/img-100.jpeg",
-    "title": "Пеленки для домашних животных",
-    "description": "Пеленки Joyful Pets для домашних животных с суперабсорбентом 60х40 см 10шт",
-    "basePrice": 120,
+    "title": "Когтеточка HOMECAT",
+    "description": "Когтеточка HOMECAT картонная Мятная волна 48 х 25 х 8 см",
+    "basePrice": 420,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 14
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 0.15,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
     "quantity": 64,
     "tags": []
   },
   {
     "id": 101,
     "img": "/images/products/img-101.jpeg",
-    "title": "Корм для кошек",
-    "description": "Корм для стерилизованных кошек Perfect Fit 75г кролик в соусе",
-    "basePrice": 29,
+    "title": "Лежак для собаки Trixie Yuma",
+    "description": "Лежак для собаки Trixie Yuma 45см, бело-коричневый",
+    "basePrice": 1290,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
-      "count": 32
+      "count": 1
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 0.075,
-    "quantity": 74,
-    "tags": []
+    "category": "scratching-posts-and-houses",
+    "weight": 0,
+    "quantity": 14,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 102,
     "img": "/images/products/img-102.jpeg",
-    "title": "Наполнитель для кошачьих туалетов",
-    "description": "Наполнитель комкующийся для кошачьих туалетов Мяудодыр 5 л",
-    "basePrice": 135,
+    "title": "ЛежакFerplast Dandy",
+    "description": "Лежак для собак и кошек Ferplast Dandy, 55х41х15 см",
+    "basePrice": 1355,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 1
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 7.5,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
     "quantity": 26,
     "tags": []
   },
   {
     "id": 103,
     "img": "/images/products/img-103.jpeg",
-    "title": "Корм для собак",
-    "description": "Корм для активных собак Purina One Мини 85 г с уткой, пасторй и зеленой фасолью",
-    "basePrice": 37,
+    "title": "Дом Gamma Лукошко",
+    "description": "Дом для кошек и собак Gamma Лукошко 33х30х30см",
+    "basePrice": 1237,
     "discountPercent": 0,
     "rating": {
       "rate": 4.1,
       "count": 4
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 0.085,
-    "quantity": 65,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 5,
     "tags": []
   },
   {
     "id": 104,
     "img": "/images/products/img-104.jpeg",
-    "title": "Набор игрушек для животных",
-    "description": "Набор игрушек для животных Мурочкин микс 4 шт",
-    "basePrice": 120,
+    "title": "Когтеточка-комплекс Saival Kiruna Mega",
+    "description": "Когтеточка-комплекс Saival Kiruna Mega",
+    "basePrice": 1200,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
       "count": 9
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 0.2,
-    "quantity": 88,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 18,
     "tags": []
   },
   {
     "id": 105,
     "img": "/images/products/img-105.jpeg",
-    "title": "Корм для собак",
-    "description": "Корм для собак Pedigree для взрослых собак крупных пород говядина 13 кг",
-    "basePrice": 3299,
+    "title": "Диван-лежанка",
+    "description": "Диван-лежанка для собак",
+    "basePrice": 1099,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 2
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 13,
-    "quantity": 76,
+    "category": "scratching-posts-and-houses",
+    "weight": 1,
+    "quantity": 16,
     "tags": []
   },
   {
     "id": 106,
     "img": "/images/products/img-106.jpeg",
-    "title": "Корм для собак сухой",
-    "description": "Корм для собак сухой Чаппи (Chappi) 15 кг мясное изобилие",
-    "basePrice": 3599,
+    "title": "Сумка-переноска DUVO+ 3 в 1",
+    "description": "Сумка-переноска DUVO+ 3 в 1 44*31*31 см, для животных весом до 6 кг, серая",
+    "basePrice": 899,
     "discountPercent": 0,
     "rating": {
       "rate": 4.3,
       "count": 29
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 15,
+    "category": "carrying",
+    "weight": 1,
     "quantity": 52,
     "tags": []
   },
   {
     "id": 107,
     "img": "/images/products/img-107.jpeg",
-    "title": "Корм для собак Sensitive Зоогурман 1,2 кг ягненок с рисом",
-    "description": "Корм для собак Sensitive Зоогурман 1,2 кг ягненок с рисом",
+    "title": "Слинг-сумка для домашних питомцев CUBY",
+    "description": "Летняя воздухопроницаемая слинг-сумка на плечо для домашних питомцев CUBY ",
     "basePrice": 550,
+    "discountPercent": 10,
+    "rating": {
+      "rate": 4.9,
+      "count": 2
+    },
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 23,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 108,
+    "img": "/images/products/img-108.jpeg",
+    "title": "Прозрачный рюкзак для кошек и собак",
+    "description": "Многофункциональный розрачный рюкзак для кошек и собак, панорамный вид, дышащий",
+    "basePrice": 1244,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
       "count": 2
     },
-    "categories": [
-      "zoo"
-    ],
-    "weight": 1.2,
-    "quantity": 23,
-    "tags": []
-  },
-  {
-    "id": 108,
-    "img": "/images/products/img-108.jpeg",
-    "title": "Творог детский",
-    "description": "Творог детский Агуша 3,9% 100г яблоко банан БЗМЖ",
-    "basePrice": 44,
-    "discountPercent": 0,
-    "rating": {
-      "rate": 4.2,
-      "count": 2
-    },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.1,
-    "quantity": 65,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 15,
     "tags": []
   },
   {
     "id": 109,
     "img": "/images/products/img-109.jpeg",
-    "title": "Сок детский",
-    "description": "Сок детский ФрутоНяня 0,2 л яблоко",
-    "basePrice": 38,
+    "title": "Слинг для собак Trixie Junior",
+    "description": "Удобный и стильный слинг для собак Trixie Junior, утеплённый, 45х20х25",
+    "basePrice": 385,
     "discountPercent": 0,
     "rating": {
       "rate": 4.8,
       "count": 3
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.2,
-    "quantity": 166,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 18,
     "tags": []
   },
   {
     "id": 110,
     "img": "/images/products/img-110.jpeg",
-    "title": "Подгузники-трусики",
-    "description": "Подгузники-трусики Joonies Premium Soft 12-17 кг 38 шт",
+    "title": "Рюкзак космонавта",
+    "description": "Рюкзак космонавта, космическая капсула, дышащая сумка для переноски домашних животных на открытом воздухе",
     "basePrice": 1100,
     "discountPercent": 0,
     "rating": {
-      "rate": 4.3,
-      "count": 22
+      "rate": 0,
+      "count": 0
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 1245,
-    "quantity": 63,
-    "tags": []
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 23,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 111,
     "img": "/images/products/img-111.jpeg",
-    "title": "Вода питьевая детская",
-    "description": "Вода питьевая детская ФрутоНяня 330 мл",
-    "basePrice": 34,
+    "title": "Рюкзак переноска",
+    "description": "Рюкзак переноска для кошек и собак весом до 8 кг",
+    "basePrice": 1234,
     "discountPercent": 0,
     "rating": {
       "rate": 4.7,
-      "count": 211
+      "count": 21
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.33,
-    "quantity": 81,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 11,
     "tags": []
   },
   {
     "id": 112,
     "img": "/images/products/img-112.jpeg",
-    "title": "Порошок стиральный детский",
-    "description": "Порошок стиральный детский Ушастый нянь 400 г",
-    "basePrice": 98,
+    "title": "Переноска для животных Imac linus Cabrio",
+    "description": "Переноска для животных Imac linus Cabrio, 50x32x34,5 см, коричневая",
+    "basePrice": 1198,
     "discountPercent": 0,
     "rating": {
       "rate": 4.1,
       "count": 45
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.4,
-    "quantity": 84,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 8,
     "tags": []
   },
   {
     "id": 113,
     "img": "/images/products/img-113.jpeg",
-    "title": "Пюре детское овощи",
-    "description": "Пюре детское ФрутоНяня 100 г говядина овощи",
-    "basePrice": 89,
+    "title": "Сумка-переноска HomePet",
+    "description": "Сумка-переноска для кошек, собак и других животных HomePet, 48 х 32 х 32 см",
+    "basePrice": 589,
     "discountPercent": 0,
     "rating": {
       "rate": 4.6,
       "count": 22
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.15,
-    "quantity": 76,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 17,
     "tags": []
   },
   {
     "id": 114,
     "img": "/images/products/img-114.jpeg",
-    "title": "Сок детский",
-    "description": "Сок детский Сады Придонья 125 мл яблоко прямого отжима",
-    "basePrice": 19,
+    "title": "Переноска Triol L",
+    "description": "Переноска Triol L, квадратная, бежевая, 46х33х27 см",
+    "basePrice": 199,
     "discountPercent": 0,
     "rating": {
       "rate": 4.7,
       "count": 8
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.125,
-    "quantity": 632,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 20,
     "tags": []
   },
   {
     "id": 115,
     "img": "/images/products/img-115.jpeg",
-    "title": "Печенье детское",
-    "description": "Печенье детское Бегемотик Бонди 180 гр обогащенное железом",
-    "basePrice": 99,
+    "title": "Переноска с ковриком и ремнем zooexpress",
+    "description": "Переноска для животных zooexpress с ковриком и ремнем, 42 х 29 х 29 см",
+    "basePrice": 1099,
     "discountPercent": 0,
     "rating": {
-      "rate": 4.2,
-      "count": 6
+      "rate": 4.8,
+      "count": 1
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.2,
-    "quantity": 201,
-    "tags": []
+    "category": "carrying",
+    "weight": 1.3,
+    "quantity": 21,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 116,
     "img": "/images/products/img-116.jpeg",
-    "title": "Паста зубная детская",
-    "description": "Паста зубная Splat Juicy с фтором арбуз детская 55 мл",
-    "basePrice": 240,
-    "discountPercent": 0,
+    "title": "Переноска для животных Dogland",
+    "description": "Переноска трансформер для животных Dogland, 50 х 30 х 32 см",
+    "basePrice": 1240,
+    "discountPercent": 15,
     "rating": {
-      "rate": 3.5,
-      "count": 86
+      "rate": 4.9,
+      "count": 8
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.1,
+    "category": "carrying",
+    "weight": 1,
     "quantity": 39,
-    "tags": []
+    "tags": [
+      "actions"
+    ]
   },
   {
     "id": 117,
     "img": "/images/products/img-117.jpeg",
-    "title": "Салфетки влажные детские",
-    "description": "Салфетки влажные Pamperino Kids ромашка и витамин Е 15 шт",
-    "basePrice": 25,
+    "title": "Сумка-переноска Triol Дуплекс",
+    "description": "Сумка-переноска для домашних животных Triol Дуплекс, 58х53х60 см",
+    "basePrice": 2225,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
-      "count": 65
+      "count": 6
     },
-    "categories": [
-      "kids"
-    ],
-    "weight": 0.05,
-    "quantity": 676,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 7,
     "tags": []
   },
   {
     "id": 118,
     "img": "/images/products/img-118.jpeg",
-    "title": "Спички",
-    "description": "Спички домашние блок",
-    "basePrice": 30,
+    "title": "Переноска Trixie Kilian",
+    "description": "Переноска для животных Trixie Kilian, 48x32x31 см",
+    "basePrice": 830,
     "discountPercent": 15,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.1,
-    "quantity": 3467,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 7,
     "tags": [
       "actions"
     ]
@@ -2224,19 +1968,17 @@
   {
     "id": 119,
     "img": "/images/products/img-119.jpeg",
-    "title": "Батарейка АА",
-    "description": "Батарейка GP Super Alkaline LR6 15А-CR4 АА 4шт",
-    "basePrice": 260,
+    "title": "Большой рюкзак-переноска",
+    "description": "Большой рюкзак-переноска для собак до 30 кг",
+    "basePrice": 1260,
     "discountPercent": 15,
     "rating": {
       "rate": 4.5,
       "count": 4
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.2,
-    "quantity": 332,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 32,
     "tags": [
       "actions"
     ]
@@ -2244,145 +1986,1365 @@
   {
     "id": 120,
     "img": "/images/products/img-120.jpeg",
-    "title": "Вилки одноразовые",
-    "description": "Вилки одноразовые Яркая цена 50шт",
-    "basePrice": 90.5,
+    "title": "Переноска-слинг GAMMA Ленивец",
+    "description": "Переноска-слинг для животных GAMMA Ленивец, 35х25х13 см",
+    "basePrice": 290.5,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
-      "count": 35
+      "count": 5
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.1,
-    "quantity": 332,
+    "category": "carrying",
+    "weight": 1,
+    "quantity": 8,
     "tags": []
   },
   {
     "id": 121,
     "img": "/images/products/img-121.jpeg",
-    "title": "Чашка кофейная одноразовая",
-    "description": "Чашка кофейная одноразовая Яркая цена 200 мл 6шт",
-    "basePrice": 25,
+    "title": "Подстилки впитывающие",
+    "description": "Подстилки впитывающие для животных, 40х50 см, 24 шт.",
+    "basePrice": 325,
     "discountPercent": 0,
     "rating": {
       "rate": 4.9,
-      "count": 3
+      "count": 13
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.1,
-    "quantity": 155,
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 85,
     "tags": []
   },
   {
     "id": 122,
     "img": "/images/products/img-122.jpeg",
-    "title": "Фольга алюминиевая",
-    "description": "Фольга алюминиевая Paterra 44 см х 10м",
+    "title": " Туалет для кошек Триплекс угловой",
+    "description": " Туалет для кошек Триплекс с бортом угловой,  42х42х15см",
     "basePrice": 250,
     "discountPercent": 0,
     "rating": {
       "rate": 4.5,
       "count": 8
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.2,
-    "quantity": 85,
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 18,
     "tags": []
   },
   {
     "id": 123,
     "img": "/images/products/img-123.jpeg",
-    "title": "Мыльница дорожная",
-    "description": "Мыльница дорожная",
-    "basePrice": 48.5,
+    "title": "Пеленки для животных Zoo",
+    "description": "Пеленки для животных Zoo впитывающие одноразовые 60*90 30шт",
+    "basePrice": 448.5,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.1,
+    "category": "trays-and-fillers",
+    "weight": 1,
     "quantity": 25,
-    "tags": []
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": 124,
     "img": "/images/products/img-124.jpeg",
-    "title": "Воронка",
-    "description": "Воронка средняя Полимербыт",
-    "basePrice": 45,
+    "title": "Лоток-туалет с высоким бортом",
+    "description": "Лоток-туалет д/животных с высоким бортом",
+    "basePrice": 145,
     "discountPercent": 0,
     "rating": {
       "rate": 0,
       "count": 0
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.1,
+    "category": "trays-and-fillers",
+    "weight": 1,
     "quantity": 10,
     "tags": []
   },
   {
     "id": 125,
     "img": "/images/products/img-125.jpeg",
-    "title": "Контейнер",
-    "description": "Контейнер Butterfly Полимербыт 0,75 л",
+    "title": "Пеленки впитывающие 60x40 см",
+    "description": "Пеленки для животных одноразовые впитывающие 60x40 см, 9 шт",
     "basePrice": 240,
     "discountPercent": 0,
     "rating": {
-      "rate": 1,
+      "rate": 4.7,
       "count": 1
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.2,
+    "category": "trays-and-fillers",
+    "weight": 1,
     "quantity": 11,
     "tags": []
   },
   {
     "id": 126,
     "img": "/images/products/img-126.jpeg",
-    "title": "Стакан стекольный",
-    "description": "Стакан Ода Опытный стекольный завод 250 мл",
-    "basePrice": 43.5,
+    "title": "Наполнитель для кошачьего туалета МОИ ЛЮБИМЦЫ",
+    "description": "Наполнитель для кошачьего туалета МОИ ЛЮБИМЦЫ впитывающий, 5л",
+    "basePrice": 343.5,
     "discountPercent": 0,
     "rating": {
       "rate": 5,
       "count": 1
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.2,
+    "category": "trays-and-fillers",
+    "weight": 1,
     "quantity": 44,
     "tags": []
   },
   {
     "id": 127,
     "img": "/images/products/img-127.jpeg",
-    "title": "Кружка стекло",
-    "description": "Кружка стекло 250мл Elica",
-    "basePrice": 90,
+    "title": "Наполнитель Cats селикагелевый",
+    "description": "Наполнитель для кошачьих туалетов Cats селикагелевый (круглый) 3.8 л (1.8 кг)",
+    "basePrice": 490,
     "discountPercent": 0,
     "rating": {
       "rate": 4,
       "count": 13
     },
-    "categories": [
-      "non-food"
-    ],
-    "weight": 0.2,
+    "category": "trays-and-fillers",
+    "weight": 1.8,
     "quantity": 27,
     "tags": []
+  },
+  {
+    "id": 128,
+    "img": "/images/products/img-128.jpeg",
+    "title": "Наполнитель Котэ селикагелевый",
+    "description": "Наполнитель для кошачьих туалетов Котэ Антибактериальный селикагелевый",
+    "basePrice": 190,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4,
+      "count": 13
+    },
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 129,
+    "img": "/images/products/img-129.jpeg",
+    "title": "Наполнитель древесный",
+    "description": "Наполнитель для кошачьих туалетов древесный, 3 кг",
+    "basePrice": 359,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4,
+      "count": 13
+    },
+    "category": "trays-and-fillers",
+    "weight": 3,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 130,
+    "img": "/images/products/img-130.jpeg",
+    "title": "Туалет для собак Triol",
+    "description": "Туалет для собак Triol с сеткой 40*40*15см",
+    "basePrice": 554,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4,
+      "count": 13
+    },
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 131,
+    "img": "/images/products/img-131.jpeg",
+    "title": "Лоток для животных Альтернатива Барсик",
+    "description": "Лоток для животных Альтернатива Барсик угловой с рамкой",
+    "basePrice": 322,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4,
+      "count": 13
+    },
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 132,
+    "img": "/images/products/img-132.jpeg",
+    "title": "Туалет BERGAMO Gastone-L",
+    "description": "Туалет BERGAMO Gastone-L для собак под пеленки 59*89*4см",
+    "basePrice": 1000,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4,
+      "count": 13
+    },
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 133,
+    "img": "/images/products/img-133.jpeg",
+    "title": "Наполнитель Pussy-Cat Cat Litter",
+    "description": "Наполнитель Pussy-Cat Cat Litter для кошек, комкующийся, 4.5л, 2 кг",
+    "basePrice": 418,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.3,
+      "count": 1
+    },
+    "category": "trays-and-fillers",
+    "weight": 2,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 134,
+    "img": "/images/products/img-134.jpeg",
+    "title": "Лоток-туалет для кошек Лотос",
+    "description": "Лоток-туалет для кошек Лотос, белый, 37х50х20 см",
+    "basePrice": 372,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.8,
+      "count": 8
+    },
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 135,
+    "img": "/images/products/img-135.jpeg",
+    "title": "Лоток для собак со стойкой",
+    "description": "Лоток для собак со стойкой 65см*55см*4см",
+    "basePrice": 620,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.6,
+      "count": 2
+    },
+    "category": "trays-and-fillers",
+    "weight": 1,
+    "quantity": 4,
+    "tags": []
+  },
+  {
+    "id": 136,
+    "img": "/images/products/img-136.jpeg",
+    "title": "Очищающий лосьон для ушей Сliny",
+    "description": "Очищающий лосьон для ушей Сliny для собак и кошек, 50 мл",
+    "basePrice": 215,
+    "discountPercent": 2,
+    "rating": {
+      "rate": 4.9,
+      "count": 34
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 20,
+    "tags": []
+  },
+  {
+    "id": 137,
+    "img": "/images/products/img-137.jpeg",
+    "title": "Антигельминтик для кошек и собак АВЗ Фебтал",
+    "description": "Антигельминтик широкого спектра действия для кошек и собак АВЗ Фебтал таб. 6шт",
+    "basePrice": 340,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.6,
+      "count": 16
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 36,
+    "tags": []
+  },
+  {
+    "id": 138,
+    "img": "/images/products/img-138.jpeg",
+    "title": "Omega 3-6-9 VETCLASSICS",
+    "description": "Добавка для улучшения кожи и шерсти домашних животных с Омега 3-6-9, поддерживает здоровье кожи и блеск шерсти для собак и кошек",
+    "basePrice": 824,
+    "discountPercent": 15,
+    "rating": {
+      "rate": 5,
+      "count": 7
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 111,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 139,
+    "img": "/images/products/img-139.jpeg",
+    "title": "Витаминный комплекс Фармакс Фармавит Актив",
+    "description": "Витаминный комплекс Фармакс Фармавит Актив для собак средних и крупных пород, 120 таб",
+    "basePrice": 638,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.5,
+      "count": 18
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 32,
+    "tags": []
+  },
+  {
+    "id": 140,
+    "img": "/images/products/img-140.jpeg",
+    "title": "Фармавит NEO (Фармакс) Энергия роста",
+    "description": "Фармавит NEO (Фармакс) витамины для котят Энергия роста, 60 таб.",
+    "basePrice": 333,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 128
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 59,
+    "tags": []
+  },
+  {
+    "id": 141,
+    "img": "/images/products/img-141.jpeg",
+    "title": "Агробиопром таблетки от блох и клещей Фипронника",
+    "description": "Агробиопром таблетки от блох и клещей Фипронника для собак и кошек массой 2-5 кг (3 таб)",
+    "basePrice": 873,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.8,
+      "count": 99
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 16,
+    "tags": []
+  },
+  {
+    "id": 142,
+    "img": "/images/products/img-142.jpeg",
+    "title": "Витамины Unitabs ImmunoComplex",
+    "description": "Витамины Unitabs ImmunoComplex, для собак мелких пород, 100 т",
+    "basePrice": 1115,
+    "discountPercent": 7,
+    "rating": {
+      "rate": 4.9,
+      "count": 17
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 11,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 143,
+    "img": "/images/products/img-143.jpeg",
+    "title": "Лакомство омега NEO+ Крепкое здоровье",
+    "description": "Лакомство омега NEO+ Крепкое здоровье для собак с морскими водорослями Фармакс 90 шт.",
+    "basePrice": 237,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 1
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 30,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 144,
+    "img": "/images/products/img-144.jpeg",
+    "title": "ДОКСИТРОН 100мг препарат антибактериальный",
+    "description": "Антибактериальный препарат широкого спектра ДОКСИТРОН 100мг, жевательные таблетки со вкусом мяса, 12 табл",
+    "basePrice": 681,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 22
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 14,
+    "tags": []
+  },
+  {
+    "id": 145,
+    "img": "/images/products/img-145.jpeg",
+    "title": "Витамины Veda Фитомины Форте",
+    "description": "Витамины Veda Фитомины Форте здоровье зубов и костей для собак 200 шт",
+    "basePrice": 875,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 11
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 9,
+    "tags": []
+  },
+  {
+    "id": 146,
+    "img": "/images/products/img-146.jpeg",
+    "title": "Inspector Quadro Tabs Инспектор таблетки от блох и клещей",
+    "description": "Таблетки от блох клещей гельминтов Inspector Quadro Tabs для кошек и собак 2-8 кг (4 таблетки)",
+    "basePrice": 430,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.4,
+      "count": 29
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 7,
+    "tags": []
+  },
+  {
+    "id": 147,
+    "img": "/images/products/img-147.jpeg",
+    "title": " Виттри-1 Витаминный раствор",
+    "description": "Виттри-1 Витаминный раствор для кошек и собак 20мл",
+    "basePrice": 160,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.5,
+      "count": 3
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 16,
+    "tags": []
+  },
+  {
+    "id": 148,
+    "img": "/images/products/img-148.jpeg",
+    "title": "Beaphar Toothpaste Зубная паста",
+    "description": "Уход за ротовой полостью Beaphar Toothpaste Зубная паста для кошек, собак вкус печени туба, 100 гр",
+    "basePrice": 236,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.8,
+      "count": 2
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 31,
+    "tags": []
+  },
+  {
+    "id": 149,
+    "img": "/images/products/img-149.jpeg",
+    "title": "Зубная паста для собак",
+    "description": "Зубная паста для собак для удаления неприятного запаха изо рта, съедобная, 60 г",
+    "basePrice": 114.5,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 12
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 3,
+    "tags": []
+  },
+  {
+    "id": 150,
+    "img": "/images/products/img-150.jpeg",
+    "title": "Лосьон для ушей OKVET",
+    "description": "Лосьон для ушей кошек и собак OKVET 125 мл",
+    "basePrice": 123,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 1
+    },
+    "category": "veterinary",
+    "weight": 1,
+    "quantity": 9,
+    "tags": []
+  },
+  {
+    "id": 151,
+    "img": "/images/products/img-151.jpeg",
+    "title": "Украшение для аквариума Saim",
+    "description": "Украшение для аквариума Saim полимерная пещера Landscap",
+    "basePrice": 692,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 1
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 2,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 152,
+    "img": "/images/products/img-152.jpeg",
+    "title": "Террариум для черепахи Aquatlantis tortum",
+    "description": "Аква Террариум для черепахи Aquatlantis tortum",
+    "basePrice": 320,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 3.8,
+      "count": 7
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 23,
+    "tags": []
+  },
+  {
+    "id": 153,
+    "img": "/images/products/img-153.jpeg",
+    "title": "Аквариум Ferplast Dubai",
+    "description": "Аквариум Ferplast Dubai 80 Led 125 л",
+    "basePrice": 8200,
+    "discountPercent": 15,
+    "rating": {
+      "rate": 5,
+      "count": 2
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 1,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 154,
+    "img": "/images/products/img-154.jpeg",
+    "title": "Аксессуары для аквариума, черепаха",
+    "description": "Искусственные пластиковые водные растения, аксессуары для аквариума, черепаха, 6 шт.",
+    "basePrice": 210,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 27
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 64,
+    "tags": []
+  },
+  {
+    "id": 155,
+    "img": "/images/products/img-155.jpeg",
+    "title": "Аквариум AA Aquarium Deco O Mini",
+    "description": "Аквариум AA Aquarium Deco O Mini, 10л, белый, 33,5х13,6х31 см",
+    "basePrice": 3550,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 1
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 2,
+    "tags": []
+  },
+  {
+    "id": 156,
+    "img": "/images/products/img-156.jpeg",
+    "title": "Сухой корм для рыб Tetra Betta Larva Sticks",
+    "description": "Сухой корм для рыб Tetra Betta Larva Sticks, для лабиринтовых, в форме мотыля, 100 мл",
+    "basePrice": 385,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 112
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 36,
+    "tags": []
+  },
+  {
+    "id": 157,
+    "img": "/images/products/img-157.jpeg",
+    "title": "Искусственные растения для аквариума",
+    "description": "Искусственные растения для аквариума 3 шт.",
+    "basePrice": 254,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.2,
+      "count": 12
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 17,
+    "tags": []
+  },
+  {
+    "id": 158,
+    "img": "/images/products/img-158.jpeg",
+    "title": "Террариум для черепах FERPLAST Arricot",
+    "description": "Террариум для черепах FERPLAST Arricot 31x22x7,5 см",
+    "basePrice": 290,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.4,
+      "count": 6
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 3,
+    "tags": []
+  },
+  {
+    "id": 159,
+    "img": "/images/products/img-159.jpeg",
+    "title": "Аквариум Tetra Cascade Globe Duo Waterfall",
+    "description": "Аквариум Tetra Cascade Globe Duo Waterfall белый 6,8л круглый с LED светильником",
+    "basePrice": 5290,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 12,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 160,
+    "img": "/images/products/img-160.jpeg",
+    "title": "Корм для аквариумных рыб Tetra Goldfish Flakes",
+    "description": "Корм для всех видов золотых рыбок и холодноводных рыб Tetra Goldfish Flakes хлопья, 1л",
+    "basePrice": 514,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5.0,
+      "count": 10
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 30,
+    "tags": []
+  },
+  {
+    "id": 161,
+    "img": "/images/products/img-161.jpeg",
+    "title": "Фильтр для аквариума SS-CHJ-902 SunSun",
+    "description": "Фильтр для аквариума с аэрацией погружной до 200 литров SunSun",
+    "basePrice": 312,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 18
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 21,
+    "tags": []
+  },
+  {
+    "id": 162,
+    "img": "/images/products/img-162.jpeg",
+    "title": "Палюдариум для рептилий Ferplast Jamaica",
+    "description": "Палюдариум для рептилий Ferplast Jamaica (серебристый) 81х36х41 см",
+    "basePrice": 705,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 9
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 1,
+    "tags": []
+  },
+  {
+    "id": 163,
+    "img": "/images/products/img-163.jpeg",
+    "title": "Мини аквариум сфера",
+    "description": "Мини аквариум сфера со светодиодной подсветкой, 2л",
+    "basePrice": 400,
+    "discountPercent": 20,
+    "rating": {
+      "rate": 4.5,
+      "count": 1
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 7,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 164,
+    "img": "/images/products/img-164.jpeg",
+    "title": "Скребок для аквариума 5в1 Sunsun",
+    "description": "Скребок для аквариума многофункциональный с набором насадок 5в1 Sunsun",
+    "basePrice": 385,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 4
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 32,
+    "tags": []
+  },
+  {
+    "id": 165,
+    "img": "/images/products/img-165.jpeg",
+    "title": "Корм для рыб Tetra Cory Shrimp Wafers",
+    "description": "Корм для рыб Tetra Cory Shrimp Wafers 100мл для донных рыб",
+    "basePrice": 320,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 17
+    },
+    "category": "aquariums",
+    "weight": 1,
+    "quantity": 23,
+    "tags": []
+  },
+  {
+    "id": 166,
+    "img": "/images/products/img-166.jpeg",
+    "title": "Ретро клетка для птиц Zolux Лизетта",
+    "description": "Ретро клетка для птиц Zolux Лизетта",
+    "basePrice": 840,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 1
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 2,
+    "tags": []
+  },
+  {
+    "id": 167,
+    "img": "/images/products/img-167.jpeg",
+    "title": "Лестница Trixie деревянная",
+    "description": "Лестница для попугая Trixie деревянная 51см",
+    "basePrice": 126,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 10
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 25,
+    "tags": []
+  },
+  {
+    "id": 168,
+    "img": "/images/products/img-168.jpeg",
+    "title": "Клетка для попугая, для птиц Gold #1",
+    "description": "Клетка для птиц прямоугольная, укомплектованная, 30*23*39",
+    "basePrice": 530,
+    "discountPercent": 8,
+    "rating": {
+      "rate": 4.6,
+      "count": 3
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 5,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 169,
+    "img": "/images/products/img-169.jpeg",
+    "title": "Trixie Зеркало с жердочкой",
+    "description": "Игрушка для попугая Trixie Зеркало с жердочкой, цвет: синий, красный, 9 см",
+    "basePrice": 168,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 25,
+    "tags": []
+  },
+  {
+    "id": 170,
+    "img": "/images/products/img-170.jpeg",
+    "title": "Inter-Zoo Клетка для птиц Eliza",
+    "description": "Inter-Zoo Клетка для птиц Eliza, 54x34x75см",
+    "basePrice": 785.5,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5.0,
+      "count": 10
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 4,
+    "tags": []
+  },
+  {
+    "id": 171,
+    "img": "/images/products/img-171.jpeg",
+    "title": "Деревянное зеркало",
+    "description": "Деревянное зеркало 10*10см",
+    "basePrice": 100,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.8,
+      "count": 1
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 18,
+    "tags": []
+  },
+  {
+    "id": 172,
+    "img": "/images/products/img-172.jpeg",
+    "title": "Triol лакомство Standard для мелких и средних попугаев с кунжутом",
+    "description": "Triol лакомство Standard для мелких и средних попугаев с кунжутом, упаковка 3 шт, 80 г",
+    "basePrice": 180,
+    "discountPercent": 7,
+    "rating": {
+      "rate": 4.8,
+      "count": 33
+    },
+    "category": "birds",
+    "weight": 0.8,
+    "quantity": 65,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 173,
+    "img": "/images/products/img-173.jpeg",
+    "title": "Игрушка для птиц Triol золотая клетка",
+    "description": "Игрушка для птиц Triol золотая клетка 16*5,5см",
+    "basePrice": 120,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.5,
+      "count": 3
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 15,
+    "tags": []
+  },
+  {
+    "id": 174,
+    "img": "/images/products/img-174.jpeg",
+    "title": "Игрушка для птиц Triol Весёлый обруч",
+    "description": "Игрушка для птиц Triol Весёлый обруч 24*7,5см",
+    "basePrice": 85,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 2
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 8,
+    "tags": []
+  },
+  {
+    "id": 175,
+    "img": "/images/products/img-175.jpeg",
+    "title": "Корм Padovan Grandmix Cocorite",
+    "description": "Корм для волнистых попугаев Padovan Grandmix Cocorite 400 г",
+    "basePrice": 385,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 26
+    },
+    "category": "birds",
+    "weight": 0.4,
+    "quantity": 58,
+    "tags": []
+  },
+  {
+    "id": 176,
+    "img": "/images/products/img-176.jpeg",
+    "title": "Корм Vitakraft Premium Menu Junior",
+    "description": "Vitakraft Premium Menu Junior корм для птенцов и молодых попуг 500 г",
+    "basePrice": 435,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 14
+    },
+    "category": "birds",
+    "weight": 0.5,
+    "quantity": 15,
+    "tags": []
+  },
+  {
+    "id": 177,
+    "img": "/images/products/img-177.jpeg",
+    "title": "Rio лакомство для средних и крупных попугаев",
+    "description": "Rio лакомство для средних и крупных попугаев, фруктово-ореховая смесь, 160 г",
+    "basePrice": 628,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 8
+    },
+    "category": "birds",
+    "weight": 0.16,
+    "quantity": 31,
+    "tags": []
+  },
+  {
+    "id": 178,
+    "img": "/images/products/img-178.jpeg",
+    "title": "Вольер для птиц Triol BC27",
+    "description": "Вольер для птиц Triol эмаль, синий/белый, 60*60*158 см",
+    "basePrice": 1575,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 1,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 179,
+    "img": "/images/products/img-179.jpeg",
+    "title": "FLAMINGO. Деревянная лестница",
+    "description": "Деревянная лестница для птиц, попугаев, канареек, в клетку . 5 ступенек, 23,7 см",
+    "basePrice": 80,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5.0,
+      "count": 4
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 11,
+    "tags": []
+  },
+  {
+    "id": 180,
+    "img": "/images/products/img-180.jpeg",
+    "title": "Ferplast Клетка GIULIETTA NERA",
+    "description": "Клетка деревянная для птиц Giulietta Nera, 57x30x50 см",
+    "basePrice": 760,
+    "discountPercent": 2,
+    "rating": {
+      "rate": 4.8,
+      "count": 4
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 1,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 181,
+    "img": "/images/products/img-181.jpeg",
+    "title": "Triol Лестница-бусинки",
+    "description": "Игрушка Triol Лестница-бусинки для птиц 28*7,5 см",
+    "basePrice": 120,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 6
+    },
+    "category": "birds",
+    "weight": 1,
+    "quantity": 77,
+    "tags": []
+  },
+  {
+    "id": 182,
+    "img": "/images/products/img-182.jpeg",
+    "title": "Лакомство Зоомир Веселый попугай",
+    "description": "Лакомство Зоомир Веселый попугай палочки любимые семена для волнистых попугаев (35г * 2шт)",
+    "basePrice": 164,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "birds",
+    "weight": 0.7,
+    "quantity": 17,
+    "tags": []
+  },
+  {
+    "id": 183,
+    "img": "/images/products/img-183.jpeg",
+    "title": "Корм с мёдом Triol",
+    "description": "Корм для мелких и средних попугаев с мёдом Triol",
+    "basePrice": 214,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.8,
+      "count": 8
+    },
+    "category": "birds",
+    "weight": 0.5,
+    "quantity": 27,
+    "tags": []
+  },
+  {
+    "id": 184,
+    "img": "/images/products/img-184.jpeg",
+    "title": "Зерновые палочки Vitapol Smakers",
+    "description": "Зерновые палочки с сухофруктами и орехами для шиншилл Vitapol Smakers, 2 шт.",
+    "basePrice": 202,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.6,
+      "count": 2
+    },
+    "category": "rodents",
+    "weight": 0.7,
+    "quantity": 4,
+    "tags": []
+  },
+  {
+    "id": 185,
+    "img": "/images/products/img-185.jpeg",
+    "title": "Домик для грызунов Trixie Kajsa",
+    "description": "Домик для грызунов Trixie Kajsa, размер 17х15х13см",
+    "basePrice": 385,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 2
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 7,
+    "tags": []
+  },
+  {
+    "id": 186,
+    "img": "/images/products/img-186.jpeg",
+    "title": "Savic Клетка для грызунов IZZY METRO",
+    "description": "Клетка с туннелями для грызунов Savic Izzy metro, 50*40*28 см",
+    "basePrice": 612,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.6,
+      "count": 8
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 2,
+    "tags": []
+  },
+  {
+    "id": 187,
+    "img": "/images/products/img-187.jpeg",
+    "title": "Зверюшки Палочки луговые травы+овощи",
+    "description": "Зверюшки Лакомство для шиншилл Палочки луговые травы+овощи, 2шт х 35г",
+    "basePrice": 154,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 1
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 17,
+    "tags": []
+  },
+  {
+    "id": 188,
+    "img": "/images/products/img-188.jpeg",
+    "title": "Закрома угощение Ивовые палочки",
+    "description": "Закрома угощение лакомство для грызунов Ивовые палочки 100г, 11шт",
+    "basePrice": 200,
+    "discountPercent": 8,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "rodents",
+    "weight": 0.1,
+    "quantity": 6,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 189,
+    "img": "/images/products/img-189.jpeg",
+    "title": "Happy Jungle Корм для кроликов",
+    "description": "Happy Jungle Корм для кроликов, 400 г",
+    "basePrice": 368,
+    "discountPercent": 8,
+    "rating": {
+      "rate": 4.7,
+      "count": 4
+    },
+    "category": "rodents",
+    "weight": 0.4,
+    "quantity": 16,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 190,
+    "img": "/images/products/img-190.jpeg",
+    "title": "Клетка Savic Martha Double",
+    "description": "Клетка для хомяков, мышей Savic Martha Double 46,5*29,5*26,5 см",
+    "basePrice": 420,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.4,
+      "count": 1
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 3,
+    "tags": []
+  },
+  {
+    "id": 191,
+    "img": "/images/products/img-191.jpeg",
+    "title": "Клетка для белки Борек",
+    "description": "Клетка для белки Борек серо-зеленая с аксессуарами 50,5*28*47 см",
+    "basePrice": 350,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.8,
+      "count": 1
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 1,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 192,
+    "img": "/images/products/img-192.jpeg",
+    "title": "Дозатор пищевых продуктов Kaytee CritterTrail",
+    "description": "Дозатор пищевых продуктов Kaytee CritterTrail аксессуар для мелких животных",
+    "basePrice": 170,
+    "discountPercent": 15,
+    "rating": {
+      "rate": 4.9,
+      "count": 8
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 17,
+    "tags": [
+      "actions"
+    ]
+  },
+  {
+    "id": 193,
+    "img": "/images/products/img-193.jpeg",
+    "title": "Лакомство в пеньке Триол",
+    "description": "Лакомство в пеньке 70г с фруктами Триол standart (2 шт)",
+    "basePrice": 135,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 1
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 8,
+    "tags": []
+  },
+  {
+    "id": 194,
+    "img": "/images/products/img-194.jpeg",
+    "title": "Клетка для мелких животных Triol Люкс",
+    "description": "Клетка для мелких животных Triol Люкс, эмаль, 62*39*46 см",
+    "basePrice": 710,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 2
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 7,
+    "tags": []
+  },
+  {
+    "id": 195,
+    "img": "/images/products/img-195.jpeg",
+    "title": "Корм для грызунов с фруктами Triol",
+    "description": "Корм для грызунов с фруктами Triol",
+    "basePrice": 180,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.9,
+      "count": 7
+    },
+    "category": "rodents",
+    "weight": 0.35,
+    "quantity": 22,
+    "tags": []
+  },
+  {
+    "id": 196,
+    "img": "/images/products/img-196.jpeg",
+    "title": "Родные Корма Корм для грызунов универсальный",
+    "description": "Родные Корма Корм для грызунов универсальный, 400 г",
+    "basePrice": 220,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 5
+    },
+    "category": "rodents",
+    "weight": 0.4,
+    "quantity": 2,
+    "tags": []
+  },
+  {
+    "id": 197,
+    "img": "/images/products/img-197.jpeg",
+    "title": "Домик для грызуна TRIXIE дерево",
+    "description": "Домик для грызуна TRIXIE дерево, 20х17х29см",
+    "basePrice": 160,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 0,
+      "count": 0
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 3,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": 198,
+    "img": "/images/products/img-198.jpeg",
+    "title": "Поилка ниппельная Ferplast",
+    "description": "Поилка ниппельная с шариком для грызунов Ferplast, 150 мл",
+    "basePrice": 140,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 3
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 32,
+    "tags": []
+  },
+  {
+    "id": 199,
+    "img": "/images/products/img-199.jpeg",
+    "title": "Triol Клетка для шиншил, хорьков",
+    "description": "Triol Клетка для шиншил, хорьков 3 полки металл 64х43,5х92,5см",
+    "basePrice": 1150,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 5,
+      "count": 9
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 1,
+    "tags": []
+  },
+  {
+    "id": 200,
+    "img": "/images/products/img-200.jpeg",
+    "title": "Двухуровневая клетка для кроликов Ferplast Ranch 100 Basic",
+    "description": "Двухуровневая клетка для кроликов Ferplast Ranch из северной сосны, бело-коричневая 92x47xh81 см",
+    "basePrice": 870,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.4,
+      "count": 3
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 7,
+    "tags": []
+  },
+  {
+    "id": 201,
+    "img": "/images/products/img-201.jpeg",
+    "title": "Дарэлл ECO Клетка Саша 3х этажная",
+    "description": "Дарэлл ECO Клетка Саша 3х этажная для мелких грызунов комплект - дом, колесо, миска, 41х30х58 см",
+    "basePrice": 985,
+    "discountPercent": 0,
+    "rating": {
+      "rate": 4.7,
+      "count": 2
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 1,
+    "tags": []
+  },
+  {
+    "id": 202,
+    "img": "/images/products/img-202.jpeg",
+    "title": "Ferplast клетка для грызунов FAVOLA",
+    "description": "Ferplast клетка для грызунов FAVOLA 60*36,5*30 мм",
+    "basePrice": 700,
+    "discountPercent": 10,
+    "rating": {
+      "rate": 4.9,
+      "count": 8
+    },
+    "category": "rodents",
+    "weight": 1,
+    "quantity": 12,
+    "tags": [
+      "actions"
+    ]
   }
 ]
