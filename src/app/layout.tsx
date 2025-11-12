@@ -12,8 +12,8 @@ const rubik = Rubik({
 
 
 export const metadata: Metadata = {
-    title: "Северяночка",
-    description: "Покупка и доставка продуктов питания",
+    title: "Mypetshop",
+    description: "Зоомагазин",
 };
 
 export default function RootLayout({
