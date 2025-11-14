@@ -6,9 +6,7 @@ import secondBanner from "/public/images/banners/2.jpg";
 
 const SpecialOffers = () => {
     return (
-        <section>
-            <div
-                className="flex flex-col gap-4 mb-4 md:mb-8 xl:mb-10 justify-between text-[#414141]">
+        <section className="flex flex-col gap-4 mb-4 md:mb-8 xl:mb-10 justify-between text-[#414141]">
                 <h2 className="text-2xl xl:text-4xl text-left font-bold mb-4 md:mb-8">
                     Специальные предложения
                 </h2>
@@ -35,7 +33,6 @@ const SpecialOffers = () => {
                         />
                     </button>
                 </div>
-            </div>
         </section>
     );
 };
