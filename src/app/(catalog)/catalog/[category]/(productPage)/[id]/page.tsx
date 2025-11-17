@@ -5,10 +5,11 @@ import {notFound} from "next/navigation";
 
 
 interface PageProps {
-    params: Promise<{ id: string }>;
+    params: Promise<{ category: string; id: string }>;
 }
 
 export async function generateStaticParams() {
+    // Возвращаем массив объектов с category и id
     return products.map((product) => ({
         category: product.category,
         id: product.id.toString(),
