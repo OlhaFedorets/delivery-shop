@@ -5,8 +5,9 @@ import { usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import iconToRight from "/public/icons-products/icon-arrow-right.svg";
 import { TRANSLATIONS } from "@/utils/translations";
+import {Suspense} from "react";
 
-const Breadcrumbs = () => {
+const BreadcrumbsContent = () => {
     const pathname = usePathname();
     const searchParams = useSearchParams();
 
@@ -78,6 +79,14 @@ const Breadcrumbs = () => {
                 ))}
             </ol>
         </nav>
+    );
+};
+
+const Breadcrumbs = () => {
+    return (
+        <Suspense fallback={null}>
+            <BreadcrumbsContent />
+        </Suspense>
     );
 };
 
