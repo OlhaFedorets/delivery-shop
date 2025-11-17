@@ -29,14 +29,6 @@ export async function generateMetadata({
 const CategoryPage = async ({
                                 params,
                             }: {
-    searchParams: Promise<{
-        page?: string;
-        itemsPerPage?: string;
-        filter?: string | string[];
-        priceFrom?: string;
-        priceTo?: string;
-        inStock?: string;
-    }>;
     params: Promise<{ category: string }>;
 }) => {
     const {category} = await params;
