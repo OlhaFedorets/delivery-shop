@@ -8,6 +8,13 @@ interface PageProps {
     params: Promise<{ id: string }>;
 }
 
+export async function generateStaticParams() {
+    return products.map((product) => ({
+        category: product.category,
+        id: product.id.toString(),
+    }));
+}
+
 const isValidProductId = (id: string): boolean => {
     return !!id && !isNaN(Number(id));
 };

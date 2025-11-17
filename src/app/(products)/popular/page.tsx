@@ -6,18 +6,13 @@ export const metadata = {
     description: 'Популярные товары магазина "Mypetshop"',
 };
 
-const AllPopular = async ({
-                                    searchParams,
-                                }: {
-    searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
-}) => {
+const AllPopular = async () => {
     const popular = products.filter((p) =>
         p.rating.rate === 5 && p.id
     );
 
     return (
         <GeneralListPage
-            searchParams={searchParams}
             props={{
                 data: popular,
                 pageTitle: "Популярные товары",

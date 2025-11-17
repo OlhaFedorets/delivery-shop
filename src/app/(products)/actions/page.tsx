@@ -6,18 +6,13 @@ export const metadata = {
     description: 'Акционные товары магазина "Mypetshop"',
 };
 
-const AllActions = async ({
-                              searchParams,
-                          }: {
-    searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
-}) => {
+const AllActions = async () => {
     const actionProducts = products.filter((p) =>
         p.tags.includes("actions")
     );
 
     return (
         <GeneralListPage
-            searchParams={searchParams}
             props={{
                 data: actionProducts,
                 pageTitle: "Акционные товары",
