@@ -1,24 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
 
-@layer base {
-  :root {
-    --color-tertiary: rgb(3, 131, 7);
-    --color-primary: rgb(73, 42, 72);
-    --color-secondary: rgb(172, 8, 8);
-    --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
-    --shadow-button-active: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
-    --shadow-article: 4px 8px 16px 0px rgba(34, 18, 90, 0.2);
-  }
+/*:root {*/
+/*    --color-tertiary: #038307;*/
+/*    --color-primary: #492a48;*/
+/*    --color-secondary: #ac0808;*/
+/*    --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);*/
+/*    --shadow-button-active: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2);*/
+/*    --shadow-article: 4px 8px 16px 0px rgba(34, 18, 90, 0.2);*/
+/*}*/
+
+/*body {*/
+/*    background-color: #f8f8f2;*/
+/*    color: #000; !* Замените --foreground на конкретный цвет *!*/
+/*    font-family: 'Rubik', sans-serif; !* Замените переменную на конкретный шрифт *!*/
+/*}*/
+
+/*.no-ymaps-copyright [class*="copyrights-pane"] {*/
+/*    visibility: hidden;*/
+/*}*/
+
+
+
+/*@import "tailwindcss";*/
+
+
+/*@theme inline {*/
+/*  --font-sans: var(--font-rubik);*/
+/*  --color-tertiary: rgb(3, 131, 7);*/
+/*  --color-primary: rgb(73, 42, 72);*/
+/*  --color-secondary: rgb(172, 8, 8);*/
+/*  --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);*/
+/*  --shadow-button-active: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2);*/
+/*  --shadow-article: 4px 8px 16px 0px rgba(34, 18, 90, 0.2);*/
+/*}*/
+
+
+/*body {*/
+/*  background-color: #f8f8f2;*/
+/*  color: var(--foreground);*/
+/*  font-family: var(--font-rubik), sans-serif;*/
+/*}*/
+
+/*.no-ymaps-copyright [class*="copyrights-pane"] {*/
+/*  visibility: hidden*/
+/*}*/
+
+/*!* className="no-ymaps-copyright w-full h-[354px]" *!*/
+
+
+
+@import "tailwindcss";
+
+
+:root {
+  /*--font-sans: var(--font-rubik);*/
+  --color-tertiary: rgb(3, 131, 7);
+  --color-primary: rgb(73, 42, 72);
+  --color-secondary: rgb(172, 8, 8);
+  --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  --shadow-button-active: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+  --shadow-article: 4px 8px 16px 0px rgba(34, 18, 90, 0.2);
 }
+
 
 body {
   background-color: #f8f8f2;
-  color: var(--foreground);
-  font-family: var(--font-rubik), sans-serif;
+  /*color: var(--foreground);*/
+  /*font-family: var(--font-rubik), sans-serif;*/
+  font-family: 'Rubik', sans-serif;
 }
 
 .no-ymaps-copyright [class*="copyrights-pane"] {
-  visibility: hidden;
+  visibility: hidden
 }
+
+/* className="no-ymaps-copyright w-full h-[354px]" */

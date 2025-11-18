@@ -24,7 +24,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body
-            className={`${rubik.variable} font-sans`}
+            className={rubik.variable}
         >
         <Header/>
         <Breadcrumbs/>
