@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '/petshop',
-    output: 'export'
+    output: 'export',
+    trailingSlash: true
 };
 
 export default nextConfig;
