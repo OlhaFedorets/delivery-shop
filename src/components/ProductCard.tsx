@@ -28,7 +28,7 @@ const ProductCard = ({
 
     return (
         <div
-            className="relative flex flex-col justify-between w-40 rounded overflow-hidden bg-white md:w-[224px] xl:w-[272px] h-[349px] align-top p-0 hover:shadow-(--shadow-article) duration-300">
+            className="relative flex flex-col justify-between w-40 rounded overflow-hidden bg-white md:w-[224px] xl:w-[272px] h-[349px] align-top p-0 hover:shadow-article duration-300">
             <FavouriteButton productId={id.toString()}/>
             <Link href={productUrl}>
                 <div className="relative aspect-square w-40 h-40 md:w-[224px] xl:w-[272px]">
@@ -42,7 +42,7 @@ const ProductCard = ({
                     />
                     {discountPercent > 0 && (
                         <div
-                            className="absolute bg-[var(--color-secondary)] py-1 px-2 rounded text-white bottom-2.5 left-2.5">
+                            className="absolute bg-secondary py-1 px-2 rounded text-white bottom-2.5 left-2.5">
                             -{discountPercent}%
                         </div>
                     )}

@@ -4,13 +4,14 @@ import products from "@/data/productsDatabase.json";
 
 
 export async function generateStaticParams() {
-    // Получаем все уникальные категории из товаров
     const categories = [...new Set(products.map(product => product.category))];
 
     return categories.map((category) => ({
         category: category,
     }));
 }
+
+export const dynamic = 'auto';
 
 export async function generateMetadata({
                                            params,

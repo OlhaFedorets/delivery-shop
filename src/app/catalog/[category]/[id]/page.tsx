@@ -14,6 +14,7 @@ export async function generateStaticParams() {
         category: product.category,
         id: product.id.toString(),
     }));
+
 }
 
 const isValidProductId = (id: string): boolean => {
