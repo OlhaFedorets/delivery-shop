@@ -30,7 +30,7 @@ const FavoritesPage = () => {
                 <FavouritesHeader itemCount={totalFavourites}/>
                 <button
                     onClick={clearFavourites}
-                    className="text-[var(--color-secondary)] hover:text-red-500 transition-colors"
+                    className="text-secondary hover:text-red-500 transition-colors"
                 >
                     Очистить избранное
                 </button>
@@ -47,7 +47,7 @@ const FavoritesPage = () => {
             <div className="m-4 text-center">
                 <Link
                     href="/"
-                    className="inline-block text-[var(--color-secondary)] hover:text-red-500 transition-colors"
+                    className="inline-block text-secondary hover:text-red-500 transition-colors"
                 >
                     ← Продолжить покупки
                 </Link>

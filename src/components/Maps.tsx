@@ -27,10 +27,10 @@ const Maps = () => {
                             <button
                                 key={key}
                                 onClick={() => setCurrentLocation(key)}
-                                className={`p-2 text-xs justify-center items-center active:shadow-(--shadow-button-active) 
+                                className={`p-2 text-xs justify-center items-center active:shadow-button-active 
                                     border-none rounded cursor-pointer transition-colors duration-300 ${
                                     isActive
-                                        ? "bg-(--color-primary) text-white hover: shadow-(--shadow-default)"
+                                        ? "bg-primary text-white hover: shadow-default"
                                         : "bg-[#f3f2f1] hover:shadow-(--shadow-button-secondary)"
                                 }`}
                             >

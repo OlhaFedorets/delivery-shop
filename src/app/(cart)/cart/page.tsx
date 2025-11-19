@@ -26,7 +26,7 @@ const CartPage = () => {
                 <CartHeader itemCount={totalItems}/>
                 <button
                     onClick={clearCart}
-                    className="text-[var(--color-secondary)] hover:text-red-500 transition-colors"
+                    className="text-secondary hover:text-red-500 transition-colors"
                 >
                     Очистить корзину
                 </button>
@@ -40,7 +40,7 @@ const CartPage = () => {
             <div className="m-4 text-center">
                 <Link
                     href="/"
-                    className="inline-block text-[var(--color-secondary)] hover:text-red-500 transition-colors"
+                    className="inline-block text-secondary hover:text-red-500 transition-colors"
                 >
                     ← Продолжить покупки
                 </Link>
