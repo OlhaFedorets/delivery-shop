@@ -10,9 +10,9 @@ const GridCategoryBlock = ({
                            }: GridCategoryBlockProps) => {
     return (
         <Link
-            href={`catalog/${slug}`}
+            href={`/catalog/${slug}`}
             aria-label={`Перейти в категорию ${title}`}
-            className="block relative h-full overflow-hidden group min-w-40 md:min-w-[224px] xl:min-w-[274px]"
+            className="block relative overflow-hidden group h-full min-w-[160px] md:min-w-[224px] xl:min-w-[274px]"
         >
             <Image
                 src={img}
