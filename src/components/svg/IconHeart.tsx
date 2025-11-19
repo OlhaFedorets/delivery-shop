@@ -3,7 +3,7 @@ interface HeartIconProps {
 }
 
 const IconHeart = ({ isActive }: HeartIconProps) => {
-    const iconColor = isActive ? "var(--color-secondary)" : "#606060";
+    const iconColor = isActive ? "#ac0808" : "#606060";
     return (
         <svg viewBox="0 0 24 24" width="24.000000" height="24.000000" fill="none">
             <rect

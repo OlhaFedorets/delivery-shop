@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <footer
-            className="bg-[#f2efe7] bg-[url('/images/graphics/pattern-footer.png')] px-[max(12px,calc((100%-1208px)/2))] py-10 w-full flex flex-col gap-4 md:flex-row text-[#414141] justify-around items-center">
+            className="bg-[#f2efe7] bg-pattern-footer px-[max(12px,calc((100%-1208px)/2))] py-10 w-full flex flex-col gap-4 md:flex-row text-[#414141] justify-around items-center">
 
             <Link href="/" className="relative w-12 h-12 md:w-20 md:h-20 block">
                 <Image src="/icons-header/icon-logo.png" alt="Логотип" fill/>

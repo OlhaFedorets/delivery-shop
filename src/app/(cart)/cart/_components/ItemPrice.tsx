@@ -12,11 +12,11 @@ const ItemPrice = ({item, finalPrice, cardPrice}: ItemPriceProps) => {
         <>
             <div className="flex items-center space-x-2 mt-2">
                 {item.product.discountPercent > 0 && (
-                    <span className="text-[var(--color-tertiary)] line-through text-sm">
+                    <span className="text-tertiary line-through text-sm">
                         {item.product.basePrice} руб.
                     </span>
                 )}
-                <span className="text-[var(--color-secondary)] font-semibold">
+                <span className="text-secondary font-semibold">
                     {finalPrice.toFixed(2)} руб.
                 </span>
                 {item.product.discountPercent > 0 && (
@@ -28,7 +28,7 @@ const ItemPrice = ({item, finalPrice, cardPrice}: ItemPriceProps) => {
             </div>
 
             <div className="mt-1">
-                <span className="text-[var(--color-tertiary)] text-sm font-semibold">
+                <span className="text-tertiary text-sm font-semibold">
                     {cardPrice.toFixed(2)} руб. с картой
                 </span>
             </div>

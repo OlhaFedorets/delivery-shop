@@ -1,3 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-main font-rubik;
+}
+
+.no-ymaps-copyright [class*="copyrights-pane"] {
+  visibility: hidden;
+}
+
+
+
 /*@tailwind base;*/
 /*@tailwind components;*/
 /*@tailwind utilities;*/
@@ -20,6 +35,8 @@
 /*.no-ymaps-copyright [class*="copyrights-pane"] {*/
 /*    visibility: hidden;*/
 /*}*/
+
+
 
 
 
@@ -51,29 +68,30 @@
 
 
 
-@import "tailwindcss";
+/*@import "tailwindcss";*/
 
 
-:root {
-  /*--font-sans: var(--font-rubik);*/
-  --color-tertiary: rgb(3, 131, 7);
-  --color-primary: rgb(73, 42, 72);
-  --color-secondary: rgb(172, 8, 8);
-  --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
-  --shadow-button-active: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
-  --shadow-article: 4px 8px 16px 0px rgba(34, 18, 90, 0.2);
-}
+
+/*:root {*/
+/*  !*--font-sans: var(--font-rubik);*!*/
+/*  --color-tertiary: rgb(3, 131, 7);*/
+/*  --color-primary: rgb(73, 42, 72);*/
+/*  --color-secondary: rgb(172, 8, 8);*/
+/*  --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);*/
+/*  --shadow-button-active: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2);*/
+/*  --shadow-article: 4px 8px 16px 0px rgba(34, 18, 90, 0.2);*/
+/*}*/
 
 
-body {
-  background-color: #f8f8f2;
-  /*color: var(--foreground);*/
-  /*font-family: var(--font-rubik), sans-serif;*/
-  font-family: 'Rubik', sans-serif;
-}
+/*body {*/
+/*  background-color: #f8f8f2;*/
+/*  !*color: var(--foreground);*!*/
+/*  !*font-family: var(--font-rubik), sans-serif;*!*/
+/*  font-family: 'Rubik', sans-serif;*/
+/*}*/
 
-.no-ymaps-copyright [class*="copyrights-pane"] {
-  visibility: hidden
-}
+/*.no-ymaps-copyright [class*="copyrights-pane"] {*/
+/*  visibility: hidden*/
+/*}*/
 
-/* className="no-ymaps-copyright w-full h-[354px]" */
+/*!* className="no-ymaps-copyright w-full h-[354px]" *!*/
