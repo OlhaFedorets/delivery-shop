@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
         unoptimized: true,
     },
     output: 'export',
-    trailingSlash: true
+    trailingSlash: true,
+    basePath: process.env.NODE_ENV === 'production' ? '/petshop' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/petshop/' : '',
 };
 
 export default nextConfig;
