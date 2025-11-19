@@ -34,8 +34,8 @@ const AddToCartButton = ({productId}: { productId: string }) => {
     return (
         <button
             onClick={handleAddToCart}
-            className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-[var(--color-secondary)]
-                    hover:border-transparent active:shadow-(--shadow-button-active) h-10 rounded justify-center items-center text-primary
+            className="absolute border bottom-2 left-2 right-2 border-primary hover:text-white hover:bg-secondary
+                    hover:border-transparent active:shadow-button-active h-10 rounded justify-center items-center text-primary
                     transition-all duration-300 cursor-pointer select-none"
         >
             В корзину

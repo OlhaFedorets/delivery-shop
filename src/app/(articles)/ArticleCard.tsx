@@ -5,7 +5,7 @@ const ArticleCard = ({img, title, createdAt, text}: ArticleCardProps) => {
 
     return (
         <article
-            className="bg-white h-full flex flex-col rounded overflow-hidden shadow-(--shadow-card) hover:shadow-(--shadow-article) duration-300">
+            className="bg-white h-full flex flex-col rounded overflow-hidden shadow-(--shadow-card) hover:shadow-article duration-300">
             <div className="relative h-48 w-full">
                 <Image
                     src={img}
@@ -28,7 +28,7 @@ const ArticleCard = ({img, title, createdAt, text}: ArticleCardProps) => {
                 </p>
                 <button
                     className="rounded mt-auto w-37.5 h-10 text-[#70C05B] border border-primary text-primary
-                    hover:bg-(--color-primary) hover:shadow-(--shadow-button-secondary) hover:text-white active:shadow-(--shadow-button-active) duration-300 cursor-pointer">
+                    hover:bg-primary hover:shadow-(--shadow-button-secondary) hover:text-white active:shadow-button-active duration-300 cursor-pointer">
                     Подробнее
                 </button>
             </div>
