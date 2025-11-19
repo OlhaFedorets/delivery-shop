@@ -14,7 +14,7 @@ const FinalPriceDisplay = () => {
 
                 <button
                     onClick={clearCart}
-                    className="w-full bg-[var(--color-primary)] text-white py-3 rounded hover:bg-[var(--color-secondary)] transition-colors font-semibold">
+                    className="w-full bg-primary text-white py-3 rounded hover:bg-secondary transition-colors font-semibold">
                     Оформить заказ
                 </button>
             </div>

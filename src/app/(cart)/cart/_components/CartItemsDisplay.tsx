@@ -52,7 +52,7 @@ const CartItemsDisplay = () => {
                                         {(finalPrice * item.quantity).toFixed(2)} руб.
                                     </p>
                                     {hasCard && (
-                                        <p className="text-[var(--color-tertiary)] text-sm font-semibold">
+                                        <p className="text-tertiary text-sm font-semibold">
                                             {(cardPrice * item.quantity).toFixed(2)} руб.
                                         </p>
                                     )}

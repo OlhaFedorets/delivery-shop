@@ -10,7 +10,7 @@ const EmptyFavourites = () => {
                 <p className="text-gray-500 mb-4">У вас пока нет избранных товаров</p>
                 <Link
                     href="/"
-                    className="inline-block bg-[var(--color-secondary)] text-white px-6 py-2 rounded hover:bg-[var(--color-primary)] transition-colors"
+                    className="inline-block bg-secondary text-white px-6 py-2 rounded hover:bg-primary transition-colors"
                 >
                     Вернуться к покупкам
                 </Link>
