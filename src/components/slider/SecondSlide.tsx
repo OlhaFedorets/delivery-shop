@@ -3,7 +3,7 @@ import slide from "@/../public/images/graphics/slide-2.png"
 
 const SecondSlide = () => {
     return (
-        <div className="mb-10 md:mb-15 xl:mb-20 w-full relative">
+        <div className="w-full relative h-full flex items-center justify-center">
             <Image
                 src={slide}
                 alt="Slide"
