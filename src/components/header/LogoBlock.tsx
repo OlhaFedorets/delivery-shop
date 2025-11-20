@@ -5,7 +5,7 @@ import iconText from "@/../public/icons-header/icon-text.png"
 
 const LogoBlock = () => {
     return (
-        <Link href='/' className="flex flex-row gap-3 items-center cursor-pointer">
+        <Link href='/' className="flex flex-row gap-4 items-center cursor-pointer">
             <div className="relative w-20 h-20">
                 <Image
                     src={iconLogo}
@@ -13,12 +13,12 @@ const LogoBlock = () => {
                     fill
                     sizes="100px"/>
             </div>
-            <div className="relative hidden md:block w-90 h-20 pt-3">
+            <div className="relative hidden md:block w-300px h-70px">
                 <Image
                     src={iconText}
                     alt="Mypetshop"
-                    width={480}
-                    height={187}
+                    width={300}
+                    height={70}
                     quality={100}
                     className="object-contain"
                     unoptimized={false}
