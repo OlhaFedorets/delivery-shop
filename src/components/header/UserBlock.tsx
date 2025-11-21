@@ -9,8 +9,9 @@ import {useFavouriteStore} from "@/store/favouriteStore";
 
 const UserBlock = () => {
     const pathname = usePathname()
-    const isFavouritesPage = pathname === "/favourites";
-    const isCartPage = pathname === "/cart"
+
+    const isFavouritesPage = pathname?.startsWith("/favourites");
+    const isCartPage = pathname?.startsWith("/cart");
 
     const {totalItems} = useCartStore();
     const {totalFavourites} = useFavouriteStore()
@@ -33,7 +34,7 @@ const UserBlock = () => {
                             </span>
                         )}
 
-                        <span className={`hidden md:block ${isFavouritesPage ? "text-[#cc0e31]" : ""}`}>
+                        <span className={`hidden md:block ${isFavouritesPage ? "text-secondary" : ""}`}>
                             Избранное
                         </span>
                     </Link>
