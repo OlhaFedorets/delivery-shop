@@ -38,7 +38,7 @@ const CartButton = ({productId}: {productId: string}) =>
         <div className="relative">
             <form action={handleSubmit}>
                 <button
-                    className="mb-2 h-10 md:h-15 w-full bg-secondary hover:brightness-110 text-white text-base md:text-2xl p-4
+                    className="mb-2 h-10 md:h-14 w-full bg-secondary hover:brightness-110 text-white text-base md:text-2xl p-4
                     flex justify-center items-center rounded hover:shadow-default active:shadow-button-active duration-300 cursor-pointer relative">
                     <Image
                         src="/icons-products/icon-shopping-cart.svg"
