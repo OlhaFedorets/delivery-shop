@@ -6,7 +6,7 @@ import ProductCard from "@/components/ProductCard";
 import EmptyFavourites from "@/app/(favourites)/favourites/_components/EmptyFavourites";
 import FavouritesHeader from "@/app/(favourites)/favourites/_components/FavouritesHeader";
 
-const FavoritesPage = () => {
+const FavouritesPage = () => {
 
     const {
         getFavouriteProducts,
@@ -56,4 +56,4 @@ const FavoritesPage = () => {
     );
 };
 
-export default FavoritesPage;
+export default FavouritesPage;
